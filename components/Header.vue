@@ -1,14 +1,11 @@
 <template>
-  <header>
-    <div class="header">
-      <div class="header__logo">
-        <NuxtLink to="/" class="link"><img src="@/assets/img/n42.logo.png"></NuxtLink>
-      </div>
-      <div class="header__menu">
-        <NuxtLink to="/team" class="link">TEAM</NuxtLink>
-        <NuxtLink to="/contact" class="link">CONTACT</NuxtLink>
-      </div>
-
+  <header class="header">
+    <div class="header__logo">
+      <NuxtLink to="/" class="link"><img src="@/assets/img/n42.logo.png"></NuxtLink>
+    </div>
+    <div class="header__menu">
+      <NuxtLink to="/team" class="link">TEAM</NuxtLink>
+      <NuxtLink to="/contact" class="link">CONTACT</NuxtLink>
     </div>
   </header>
 </template>
@@ -26,13 +23,13 @@
   }
   &__logo {
     img {
-      width: 120px;
+      width: 100px;
     }
   }
   &__menu {
     margin-left: 30px;
     .link {
-      font-size: 1.4em;
+      font-size: 1.2em;
       font-weight: $font-middle;
       color: $black;
       line-height: 40px;

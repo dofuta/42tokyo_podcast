@@ -1,6 +1,5 @@
 <template>
-  <b-row>
-    <b-col class="mt-3 col-12 p-0 bg-white rounded services__box">
+    <div class="services__box">
       <div class="header">
         <span class="batsu"></span>
       </div>
@@ -13,15 +12,16 @@
         This is our service.<br/>
         This is our service.<br/>
         </div>
-    </b-col>
-  </b-row>
+    </div>
 </template>
 
 <style lang="scss">
 
   .services {
     &__box {
+      margin-top: 20px;
       border: 2px solid black;
+      background-color: $white;
       .header {
         border-bottom: 2px solid black;
         padding: 4px 5px 0px 5px;

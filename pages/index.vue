@@ -1,14 +1,14 @@
 <template>
   <div>
     <Header />
-    <b-container>
+    <div>
       <Service />
       <Service />
       <Service />
       <Service />
       <Service />
       <Service />
-    </b-container>
+    </div>
   </div>
 </template>
 

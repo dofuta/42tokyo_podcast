@@ -22,7 +22,9 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // SCSS file in the project
-    '~/assets/scss/main.scss'
+    '~/assets/scss/main.scss',
+    // reset css
+    'modern-css-reset'
   ],
 
   // Global sass for all components
@@ -46,8 +48,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
