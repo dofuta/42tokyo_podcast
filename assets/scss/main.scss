@@ -6,13 +6,10 @@ html {
   body {
     font-family: 'Poppins', sans-serif;
     background-color: $white;
-    background-image: repeating-linear-gradient(-20deg,$blue, $blue 2px, transparent 0, transparent 25px),
-                      repeating-linear-gradient(70deg,$blue, $blue 2px, transparent 0, transparent 25px);
-  }
-  button, p, h1, h4, h5 {
-    font-family: 'Noto Sans JP', sans-serif;
-  }
-  .container {
-    padding-top: 76.28px;
+    .container {
+      padding-top: 76.28px;
+      max-width: $main-width;
+      margin: 0 auto;
+    }
   }
 }
