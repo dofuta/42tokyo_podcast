@@ -1,6 +1,6 @@
 <template>
   <div class="subarea" :id="id">
-    <div class="subarea__title">
+    <div class="subarea__title poppins">
       <h2>{{ title }}</h2>
     </div>
     <slot></slot>

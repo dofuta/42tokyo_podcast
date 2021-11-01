@@ -46,7 +46,7 @@
     .link {
       text-decoration: none;
       font-size: 1.2em;
-      font-weight: $font-medium;
+      font-weight: $font-medium-bold;
       color: $black;
       line-height: 40px;
       margin: 0 10px;

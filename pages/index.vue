@@ -31,7 +31,11 @@
             <SubArea :title="'Contact'" :id="'contact'">
               <Contacts :items="contacts"/>
             </SubArea>
+            <p class="message">
+              - まずは気軽に相談してください✌️
+            </p>
           </FadeIn>
+
         </div>
         <Footer />
       </div>
@@ -127,23 +131,22 @@ export default {
       teams: [
         {
           img: {
-            src: require('@/assets/img/works/tinydinoclub.jpg'),
+            src: require('@/assets/img/team/dofuta.jpg'),
             alt: 'Taisei Dofuku'
           },
           role: 'Engineer',
-          title: 'Taisei Dofuku',
-          desc: 'Web領域を担当するデベロッパー',
-          tw: 'https://example.com/',
-          fb: 'https://example.com/',
+          title: 'aoiefk',
+          desc: 'Web上での表現を得意とする。<br/>カレーが好き。',
+          tw: 'https://twitter.com/dofu_kun',
         },
         {
           img: {
-            src: require('@/assets/img/works/tinydinoclub.jpg'),
+            src: require('@/assets/img/team/sk.jpg'),
             alt: 'Taisei Dofuku'
           },
           role: 'Engineer',
           title: 'Shogo Kagiya',
-          desc: 'ブロックチェーンエンジニア',
+          desc: 'ブロックチェーンエンジニア。<br/>CとPythonを使いこなす。',
           tw: 'https://example.com/',
           fb: 'https://example.com/',
         }
@@ -166,7 +169,7 @@ export default {
             h: 20,
           },
           text: 'Discordからお問い合わせ',
-          link: 'https://example.com/',
+          link: 'https://discord.gg/pyVXrd2xXY',
           color: '#5769EA',
         },
         // {
@@ -217,4 +220,8 @@ export default {
       margin-bottom: 100px;
     }
   }
+    .message {
+      padding: 20px;
+      color: $gray;
+    }
 </style>

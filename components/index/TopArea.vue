@@ -5,6 +5,10 @@
       生成から出品まで<br/>
       全てをお任せ
     </p>
+    <p class="toparea__exact">
+      <span>n42</span> は、エンジニア養成機関 <br class="only_sp"/><span>42 Tokyo 発</span> の <span>NFTコレクション</span> を<br class="only_sp"/>専門に扱うクリエイティブチームです。<br><br/>
+      あなたの <span>NFT作品</span> を、<br class="only_sp"/><span>Generative Collection</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。
+    </p>
     <div class="toparea__desc">
       <div class="item" v-for="item in items" :key="item.title">
         <p class="item__title">{{item.title}}</p>
@@ -24,15 +28,15 @@ export default {
       items: [
         {
           title: '1. 画像素材を元にアバターを生成',
-          desc: 'パーツの画像をご用意いただき、その画像を元に、大量のアバターをランダム生成します。',
+          desc: 'NFTコレクションを構成するパーツの画像をご用意いただき、その画像をレイヤーごとに重ねて、乱数によって画像をランダムに生成します。',
         },
         {
           title: '2. 自動ミンティング・自動出品',
-          desc: '1.0k ~ 10.0kのアイテム数を自動でミンティング。出品やタグづけも自動で行います。',
+          desc: '生成した画像を、1.0k ~ 10.0kのアイテム数まで自動でミンティング。独自のシステムによって、出品やタグづけも自動で行います。',
         },
         {
           title: '3. 収益はETHでクリエイターの元へ',
-          desc: '手数料を差し引いた全ての収益は、毎月クリエイターの元へ支払われます。',
+          desc: '手数料を差し引いた全ての収益は、毎月クリエイターの元へ支払われます。税金などの計算も対応予定です。',
         },
       ]
     }
@@ -43,7 +47,7 @@ export default {
 <style lang="scss" scoped>
   .toparea {
     width: 100%;
-    padding: 150px 20px 100px 20px;
+    padding: 150px 20px 130px 20px;
     &__copy {
       font-weight: $font-bold;
       font-size: 3rem;
@@ -52,7 +56,7 @@ export default {
       }
     }
     &__desc {
-      margin-top: 50px;
+      margin-top: 70px;
       .item {
         margin-bottom: 20px;
         &__title {
@@ -62,6 +66,18 @@ export default {
         &__desc {
           font-weight: $font-medium;
         }
+      }
+    }
+    &__exact {
+      margin-top: 50px;
+      font-size: 1.5rem;
+      font-weight: $font-medium;
+      @media (max-width: $tablet-width) {
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+      }
+      span {
+        font-weight: $font-bold;
       }
     }
   }
