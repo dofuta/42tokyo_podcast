@@ -6,7 +6,7 @@
       全てをお任せ
     </p>
     <p class="toparea__exact">
-      <span>n42</span> は、エンジニア養成機関 <br class="only_sp"/><span>42 Tokyo 発</span> の <span>NFTコレクション</span> を<br class="only_sp"/>専門に扱うクリエイティブチームです。<br><br/>
+      <span>n42</span> は、エンジニア養成機関 <br class="only_sp"/><span>42 Tokyo 発</span> の <span>NFTコレクション</span><br class="only_sp"/>を専門に扱う<br class="only_sp"/>クリエイティブチームです。<br>
       あなたの <span>NFT作品</span> を、<br class="only_sp"/><span>Generative Collection</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。
     </p>
     <div class="toparea__desc">
@@ -70,7 +70,7 @@ export default {
     }
     &__exact {
       margin-top: 50px;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: $font-medium;
       @media (max-width: $tablet-width) {
         font-size: 1.2rem;
