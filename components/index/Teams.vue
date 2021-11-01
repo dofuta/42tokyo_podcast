@@ -46,7 +46,7 @@ export default {
         }
       }
       &__desc {
-        padding: 25px;
+        padding: 18px;
         line-height: 1.5rem;
         width: 300px;
         @media (max-width: $tablet-width) {
