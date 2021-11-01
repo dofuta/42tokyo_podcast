@@ -1,7 +1,9 @@
 <template>
-  <div :class="{fadeIn: visible, fadeOut: !visible}">
-    <slot v-show="visible"></slot>
-  </div>
+  <client-only>
+    <div :class="{fadeIn: visible, fadeOut: !visible}">
+      <slot v-show="visible"></slot>
+    </div>
+  </client-only>
 </template>
 <script>
   export default {
@@ -11,14 +13,18 @@
       };
     },
     created() {
-      window.addEventListener("scroll", this.handleScroll);
+      if (process.browser) {
+        window.addEventListener("scroll", this.handleScroll);
+      }
     },
     destroyed() {
-      window.removeEventListener("scroll", this.handleScroll);
+      if (process.browser) {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
     },
     methods: {
       handleScroll() {
-        if (!this.visible) {
+        if (!this.visible && process.browser) {
           var top = this.$el.getBoundingClientRect().top;
           this.visible = top < window.innerHeight - 200;
         }

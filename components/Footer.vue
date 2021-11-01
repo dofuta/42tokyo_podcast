@@ -1,4 +1,5 @@
 <template>
+  <client-only>
   <footer>
   <row class="footer">
     <column :xs="12" :md="6" class="leftside">
@@ -70,6 +71,7 @@
     </column>
   </row>
   </footer>
+  </client-only>
 </template>
 
 <style lang="scss" scoped>
