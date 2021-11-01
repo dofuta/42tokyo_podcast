@@ -199,7 +199,7 @@ export default {
         { hid: 'og:site_name', property: 'og:site_name', content: title },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: 'https://nfourtwo.com' },
-        { hid: 'og:image', property: 'og:image', content: 'https://nfourtwo/ogp.png' },
+        { hid: 'og:image', property: 'og:image', content: 'https://nfourtwo.com/ogp.png' },
         { name: 'twitter:card', content: 'summary' },
       ]
     }
