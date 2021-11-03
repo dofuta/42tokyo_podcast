@@ -39,7 +39,6 @@ export default {
       display: flex;
       flex-wrap: wrap;
       img {
-        height: fit-content;
         border-radius: 10px;
         width: 200px;
         @media (max-width: $tablet-width) {
