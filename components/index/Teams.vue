@@ -39,18 +39,19 @@ export default {
       display: flex;
       flex-wrap: wrap;
       img {
+        height: fit-content;
         border-radius: 10px;
         width: 200px;
         @media (max-width: $tablet-width) {
-          max-width: 55%;
+          max-width: 50%;
         }
       }
       &__desc {
-        padding: 18px;
+        padding: 10px 15px;
         line-height: 1.5rem;
         width: 300px;
         @media (max-width: $tablet-width) {
-          max-width: 45%;
+          max-width: 50%;
           line-height: 0.9rem;
           font-size: 0.8rem;
         }
@@ -58,9 +59,9 @@ export default {
           font-weight: $font-medium-bold;
         }
         .role {
-          margin-bottom: 10px;
+          margin-bottom: 8px;
           font-weight: $font-light;
-          font-size: 1rem;
+          font-size: 0.8rem;
           color: $gray;
         }
         .desc {
