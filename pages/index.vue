@@ -144,7 +144,7 @@ export default {
           },
           role: 'Block-chain Engineer',
           title: 'skagiya',
-          desc: 'Python, Solidityを得意とする。<br/>バックエンド領域の実装を担当。',
+          desc: 'Python, Solidityを得意とする。<br/>バックエンド領域の実装を担当。<br/>42 Tokyo 1期生。',
           tw: 'https://twitter.com/loadge',
         },
         {
@@ -154,7 +154,7 @@ export default {
           },
           role: 'Web Engineer',
           title: 'aoiefkj',
-          desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。',
+          desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。<br/>42 Tokyo 1期生。',
           tw: 'https://twitter.com/aoiefkj',
         },
       ],

@@ -51,7 +51,7 @@ export default {
         width: 300px;
         @media (max-width: $tablet-width) {
           max-width: 45%;
-          line-height: 1rem;
+          line-height: 0.9rem;
           font-size: 0.8rem;
         }
         .title {
