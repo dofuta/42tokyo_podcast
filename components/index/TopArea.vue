@@ -6,7 +6,7 @@
       全てをお任せ
     </p>
     <p class="toparea__exact">
-      <span>n42</span> は、エンジニア養成機関 <br class="only_sp"/><span>42 Tokyo 発</span> の <span>NFTコレクション</span><br class="only_sp"/>を専門に扱う<br class="only_sp"/>クリエイティブチームです。<br>
+      <span>n42</span> は、<span>NFTコレクション</span><br class="only_sp"/>を専門に扱う<br class="only_sp"/>デジタルクリエイティブチームです。<br>
       あなたの <span>NFT作品</span> を、<br class="only_sp"/><span>Generative Collection</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。
     </p>
     <div class="toparea__desc">
@@ -28,15 +28,15 @@ export default {
       items: [
         {
           title: '1. 画像素材を元にアバターを生成',
-          desc: 'NFTコレクションを構成するパーツの画像をご用意いただき、その画像をレイヤーごとに重ねて、乱数によって画像をランダムに生成します。',
+          desc: 'NFTコレクションを構成する素材をご用意いただき、その画像素材をレイヤーごとに重ねて、乱数によって画像をランダムに生成します。',
         },
         {
           title: '2. 自動ミンティング・自動出品',
-          desc: '生成した画像を、1.0k ~ 10.0kのアイテム数まで自動でミンティング。独自のシステムによって、出品やタグづけも自動で行います。',
+          desc: '生成した画像を、1.0k ~ 10.0kのアイテム数をミンティング。独自のシステムによって、マーケットへの出品やタグづけをコンピュータで行います。',
         },
         {
           title: '3. 収益はETHでクリエイターの元へ',
-          desc: '手数料を差し引いた全ての収益は、毎月クリエイターの元へ支払われます。税金などの計算も対応予定です。',
+          desc: '手数料を差し引いた全ての収益は、毎月クリエイターの元へ支払われます。税金などの計算も今後対応予定です。',
         },
       ]
     }
