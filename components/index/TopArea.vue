@@ -69,7 +69,7 @@ export default {
       }
     }
     &__exact {
-      margin-top: 50px;
+      margin-top: 60px;
       font-size: 1.3rem;
       font-weight: $font-medium;
       @media (max-width: $tablet-width) {

@@ -37,7 +37,7 @@
   }
   &__logo {
     img {
-      width: 100px;
+      width: 80px;
     }
   }
   &__menu {
@@ -50,9 +50,6 @@
       color: $black;
       line-height: 40px;
       margin: 0 10px;
-      &:hover {
-
-      }
     }
   }
 }
@@ -86,7 +83,7 @@
   display: block;
 
   /*  Set same font-size and line height  */
-  font-size: 20px;
+  font-size: 1.1rem;
   line-height: 20px;
 
   transition: transform 0.4s ease;

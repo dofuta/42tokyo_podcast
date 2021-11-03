@@ -106,6 +106,14 @@ export default {
           src: require('@/assets/img/logos/ethereum.png'),
           alt: 'Ethereum'
         },
+        {
+          src: require('@/assets/img/logos/filecoin.png'),
+          alt: 'Filecoin'
+        },
+        {
+          src: require('@/assets/img/logos/pinata.png'),
+          alt: 'Pinata'
+        },
       ],
       works: [
         {
@@ -118,38 +126,37 @@ export default {
 
           desc: '1,000 items | 5.2ETH'
         },
-        {
-          img: {
-            src: require('@/assets/img/works/circlecircle.png'),
-            alt: 'Circle Circle'
-          },
-          title: 'Circle Circle',
-          link: 'https://opensea.io/collection/beautiful-circle-circle',
-          desc: '1,000 items | 0.0ETH'
-        }
+        // {
+        //   img: {
+        //     src: require('@/assets/img/works/circlecircle.png'),
+        //     alt: 'Circle Circle'
+        //   },
+        //   title: 'Circle Circle',
+        //   link: 'https://opensea.io/collection/beautiful-circle-circle',
+        //   desc: '1,000 items | 0.0ETH'
+        // }
       ],
       teams: [
         {
           img: {
-            src: require('@/assets/img/team/dofuta.jpg'),
-            alt: 'Taisei Dofuku'
+            src: require('@/assets/img/team/team7.jpg'),
+            alt: 'skagiya'
           },
-          role: 'Engineer',
-          title: 'aoiefk',
-          desc: 'Web上での表現を得意とする。<br/>カレーが好き。',
-          tw: 'https://twitter.com/dofu_kun',
+          role: 'Block-chain Engineer',
+          title: 'skagiya',
+          desc: 'Python, Solidityを得意とする。<br/>バックエンド領域の実装を担当。',
+          tw: 'https://twitter.com/loadge',
         },
         {
           img: {
-            src: require('@/assets/img/team/sk.jpg'),
-            alt: 'Taisei Dofuku'
+            src: require('@/assets/img/team/team6.jpg'),
+            alt: 'aoiefkj'
           },
-          role: 'Engineer',
-          title: 'Shogo Kagiya',
-          desc: 'ブロックチェーンエンジニア。<br/>CとPythonを使いこなす。',
-          tw: 'https://example.com/',
-          fb: 'https://example.com/',
-        }
+          role: 'Web Engineer',
+          title: 'aoiefkj',
+          desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。',
+          tw: 'https://twitter.com/aoiefkj',
+        },
       ],
       contacts: [
         {
