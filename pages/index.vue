@@ -159,7 +159,8 @@ export default {
             h: 20,
           },
           text: 'Twitterからお問い合わせ',
-          link: 'https://example.com/',
+          link_pc: 'https://twitter.com/n42_agency',
+          link_sp: 'https://twitter.com/messages/compose?recipient_id=1455754052868788224',
           color: '#00A9F4',
         },
         {
@@ -169,7 +170,8 @@ export default {
             h: 20,
           },
           text: 'Discordからお問い合わせ',
-          link: 'https://discord.gg/pyVXrd2xXY',
+          link_pc: 'https://discord.gg/pyVXrd2xXY',
+          link_sp: 'https://discord.gg/pyVXrd2xXY',
           color: '#5769EA',
         },
         // {

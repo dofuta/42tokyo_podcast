@@ -1,6 +1,6 @@
 <template>
   <div class="contacts">
-    <a class="contacts__item" v-for="item in items" :key="item.alt" :href="item.link" target="_blank" rel='noreferrer' :style="{borderColor: item.color, backgroundColor: item.color}">
+    <a class="contacts__item" v-for="item in items" :key="item.alt" :href="smartphone ? item.link_sp : item.link_pc" target="_blank" rel='noreferrer' :style="{borderColor: item.color, backgroundColor: item.color}">
       <div class="wrapper">
         <span :style="{ color: item.color }">{{item.text}}</span>
         <img :src="item.img.src" :style="{width: item.img.w + 'px', height: item.img.h + 'px'}"/>
@@ -14,6 +14,26 @@ export default {
   props: [
     'items'
   ],
+  data: function () {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+      smartphone: false,
+    }
+  },
+  methods: {
+    handleResize: function() {
+      this.width = window.innerWidth;
+      this.height = window.innerHeight;
+      this.smartphone = this.width < 768 ? true : false;
+    }
+  },
+  mounted: function () {
+    window.addEventListener('resize', this.handleResize)
+  },
+  beforeDestroy: function () {
+    window.removeEventListener('resize', this.handleResize)
+  }
 }
 </script>
 
