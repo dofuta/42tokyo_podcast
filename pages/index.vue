@@ -196,7 +196,7 @@ export default {
   },
   head() {
     const title = 'n42'
-    const desc = 'n42は、NFTコレクションの生成と出品の代行サービスを提供しています。'
+    const desc = 'n42は、NFTコレクションを専門に扱うデジタルクリエイティブチームです。'
     return {
       title: title,
       meta: [
