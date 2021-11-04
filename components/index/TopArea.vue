@@ -1,9 +1,10 @@
 <template>
   <div class="toparea" >
     <p class="toparea__copy">
-      NFTコレクションの<br/>
-      生成から出品まで<br/>
-      全てをお任せ
+      私たちは、<br/>
+      NFTアバタープロジェクトを<br/>
+      クリエイターと共創する<br/>
+      技術チームです。
     </p>
     <p class="toparea__exact">
       <span>n42</span> は、<span>NFTコレクション</span><br class="only_sp"/>を専門に扱う<br class="only_sp"/>デジタルクリエイティブチームです。<br>
