@@ -1,12 +1,11 @@
 <template>
   <div class="toparea" >
     <p class="toparea__copy">
-      伝説的な<br class="only_sp"/>NFTコレクションを<br/>
-      クリエイターと<br class="only_sp"/>共に世界へ<br/>
+      あなたの作品を<br class="only_sp"/>NFTの世界へ
     </p>
     <p class="toparea__exact">
-      <span>n42</span> は、<span>NFTコレクション</span><br class="only_sp"/>を専門に扱う<br class="only_sp"/>デジタルクリエイティブチームです。<br>
-      あなたの <span>NFT作品</span> を、<br class="only_sp"/><span>Generative Collection</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。
+      <span>n42</span> は、<span>NFT</span>を専門に扱う<br class="only_sp"/><span>デジタルクリエイティブチーム</span>です。<br>
+      あなたの作品を、<br class="only_sp"/><span>NFTコレクション</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。
     </p>
     <div class="toparea__desc">
       <div class="item" v-for="item in items" :key="item.title">
