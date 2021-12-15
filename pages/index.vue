@@ -166,7 +166,7 @@ export default {
             h: 20,
           },
           text: 'Twitterからお問い合わせ',
-          link_pc: 'https://twitter.com/n42_agency',
+          link_pc: 'https://twitter.com/n42_official',
           link_sp: 'https://twitter.com/messages/compose?recipient_id=1455754052868788224',
           color: '#00A9F4',
         },
