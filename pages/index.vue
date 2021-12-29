@@ -150,12 +150,12 @@ export default {
         {
           img: {
             src: require('@/assets/img/team/team6.jpg'),
-            alt: 'aoiefkj'
+            alt: 'aoiefk'
           },
           role: 'Web Engineer',
-          title: 'aoiefkj',
+          title: 'aoiefk',
           desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。<br/>42 Tokyo 1期生。',
-          tw: 'https://twitter.com/aoiefkj',
+          tw: 'https://twitter.com/aoiefk',
         },
       ],
       contacts: [
