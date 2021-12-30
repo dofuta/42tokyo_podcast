@@ -145,7 +145,7 @@ export default {
           role: 'Block-chain Engineer',
           title: 'skagiya',
           desc: 'Python, Solidityを得意とする。<br/>バックエンド領域の実装を担当。<br/>42 Tokyo 1期生。',
-          tw: 'https://twitter.com/loadge',
+          tw: 'https://twitter.com/skagiya',
         },
         {
           img: {
