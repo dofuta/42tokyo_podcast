@@ -31,6 +31,7 @@ export default {
   // Global sass for all components
   styleResources: {
     scss: [
+      '~/assets/scss/reset.scss',
       '~/assets/scss/variables.scss'
     ]
   },

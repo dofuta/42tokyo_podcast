@@ -8,6 +8,11 @@
           <!-- <Background :asset="backgroundImage.bottom"/> -->
           <TopArea />
           <FadeIn>
+            <SubArea :title="'Media'" :id="'media'">
+              <Media :items="media"/>
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
             <SubArea :title="'Markets Supported'" :id="'markets'">
               <Logos :items="markets"/>
             </SubArea>
@@ -50,6 +55,7 @@ import SubArea from '~/components/index/SubArea.vue';
 import Logos from '~/components/index/Logos.vue';
 import Works from '~/components/index/Works.vue';
 import Teams from '~/components/index/Teams.vue';
+import Media from '~/components/index/Media.vue';
 import Contacts from '~/components/index/Contacts.vue';
 
 // fade in animation
@@ -63,6 +69,7 @@ export default {
     Logos,
     Works,
     Teams,
+    Media,
     Contacts,
     Background,
     FadeIn,
@@ -167,6 +174,20 @@ export default {
           desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。<br/>42 Tokyo 1期生。',
           tw: 'https://twitter.com/aoiefk',
         },
+      ],
+      media: [
+        {
+          title: '『NFT福袋2022 販売までの40時間の戦い』をnoteに公開しました。',
+          thumbnail: require('@/assets/img/media/nft2022.jpg'),
+          link: 'https://note.com/nfourtwo/n/nfbb846f52c74',
+          date: '2022.01.05'
+        },
+        {
+          title: '『Generative NFT Collection の作り方』をnoteに公開しました。',
+          thumbnail: require('@/assets/img/media/tdc.jpg'),
+          link: 'https://note.com/aoiefk/n/n5f4576bdc8b9',
+          date: '2021.10.15'
+        }
       ],
       contacts: [
         {

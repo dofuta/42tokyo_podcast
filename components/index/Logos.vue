@@ -23,7 +23,7 @@ export default {
       padding: 10px 0;
       margin-right: 40px;
       img {
-        height: 60px;
+        height: 45px;
         @media (max-width: $tablet-width) {
           height: 40px;
         }

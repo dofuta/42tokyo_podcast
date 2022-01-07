@@ -5,6 +5,16 @@
     <column :xs="12" :md="6" class="leftside">
       <row class="leftside__links">
         <column :xs="6" :md="4" class="item">
+          <a href="#media" class="link">
+            <span class="mask">
+              <div class="link-container">
+                <span class="link-title1 title">Media</span>
+                <span class="link-title2 title">メディア</span>
+              </div>
+            </span>
+          </a>
+        </column>
+        <column :xs="6" :md="4" class="item">
           <a href="#markets" class="link">
             <span class="mask">
               <div class="link-container">
@@ -24,6 +34,8 @@
             </span>
           </a>
         </column>
+      </row>
+      <row class="leftside__links">
         <column :xs="6" :md="4" class="item">
           <a href="#casestudies" class="link">
             <span class="mask">
@@ -34,8 +46,6 @@
             </span>
           </a>
         </column>
-      </row>
-      <row class="leftside__links">
         <column :xs="6" :md="4" class="item">
           <a href="#team" class="link">
             <span class="mask">

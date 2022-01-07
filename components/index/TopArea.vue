@@ -45,7 +45,7 @@ export default {
 <style lang="scss" scoped>
   .toparea {
     width: 100%;
-    padding: 150px 20px 130px 20px;
+    padding: 150px 20px 40px 20px;
     &__copy {
       font-weight: $font-bold;
       font-size: 3rem;
