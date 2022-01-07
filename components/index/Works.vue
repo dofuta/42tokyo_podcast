@@ -12,8 +12,8 @@
         <a class="link" :href="item.link" target='_blank' rel='noreferrer'>
           <span class="mask">
             <div class="link-container">
-              <span class="link-title1 title">Openseaで見る></span>
-              <span class="link-title2 title">Openseaで見る></span>
+              <span class="link-title1 title">{{item.linktitle}}で見る></span>
+              <span class="link-title2 title">{{item.linktitle}}で見る></span>
             </div>
           </span>
         </a>

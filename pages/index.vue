@@ -123,8 +123,18 @@ export default {
           },
           title: 'Tiny Dino Club / Generative',
           link: 'https://opensea.io/collection/tiny-dino-club-generative',
-
-          desc: '1,000 items | 5.2ETH'
+          linktitle: 'Opensea',
+          desc: '1,000 items | 5.2ETH',
+        },
+        {
+          img: {
+            src: require('@/assets/img/works/nft2022.jpg'),
+            alt: 'NFT福袋2022'
+          },
+          title: 'NFT福袋2022',
+          link: 'https://twitter.com/nft_happy_bag',
+          linktitle: 'Twitter',
+          desc: '22 items | ¥444,840'
         },
         // {
         //   img: {
