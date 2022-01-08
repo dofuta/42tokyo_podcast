@@ -6,12 +6,6 @@
     <p class="toparea__exact">
       <span>n42</span> は、<span>NFT</span>を専門に扱う<br class="only_sp"/><span>デジタルクリエイティブチーム</span>です。<br>
       あなたの作品を、<br class="only_sp"/><span>NFTコレクション</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。<br><br>
-
-      <span>n42</span>は、よくある「技術だけ」の<br class="only_sp"/>チームではありません。<br><br>
-
-      得意とするのは<span>課題解決</span>です。<br class="only_sp"/>時には、そのプロジェクトで<br class="only_sp"/>利用するためだけに新しい技術を<br class="only_sp"/>習得するところから始めます。<br class="only_sp"/><br class="only_sp"/>
-
-      私たちは<span>親密なチームの一員</span>です。<br class="only_sp"/>一緒にワクワクする未来を作りましょう。
     </p>
     <div class="toparea__desc">
       <div class="item" v-for="item in items" :key="item.title">
