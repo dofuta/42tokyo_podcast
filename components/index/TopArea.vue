@@ -5,7 +5,13 @@
     </p>
     <p class="toparea__exact">
       <span>n42</span> は、<span>NFT</span>を専門に扱う<br class="only_sp"/><span>デジタルクリエイティブチーム</span>です。<br>
-      あなたの作品を、<br class="only_sp"/><span>NFTコレクション</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。
+      あなたの作品を、<br class="only_sp"/><span>NFTコレクション</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。<br><br>
+
+      <span>n42</span>は、よくある「技術だけ」の<br class="only_sp"/>チームではありません。<br><br>
+
+      得意とするのは<span>課題解決</span>です。<br class="only_sp"/>時には、そのプロジェクトで<br class="only_sp"/>利用するためだけに新しい技術を<br class="only_sp"/>習得するところから始めます。<br class="only_sp"/><br class="only_sp"/>
+
+      私たちは<span>親密なチームの一員</span>です。<br class="only_sp"/>一緒にワクワクする未来を作りましょう。
     </p>
     <div class="toparea__desc">
       <div class="item" v-for="item in items" :key="item.title">
@@ -25,16 +31,16 @@ export default {
     return {
       items: [
         {
-          title: '1. 画像素材を元にアバターを生成',
-          desc: 'NFTコレクションを構成する素材をご用意いただき、その画像素材をレイヤーごとに重ねて、乱数によって画像をランダムに生成します。',
+          title: '1. 素材を元に様々なデジタル作品を生成',
+          desc: 'NFTコレクションを構成する素材をご用意いただき、そのデータ素材を乱数によってランダム生成します。時には素材を作るところから始めます。',
         },
         {
-          title: '2. 自動ミンティング・自動出品',
-          desc: '生成した画像を、1.0k ~ 10.0kのアイテム数をミンティング。独自のシステムによって、マーケットへの出品やタグづけをコンピュータで行います。',
+          title: '2. 独自コントラクト・ミンティング',
+          desc: '生成した画像を、1.0k ~ 10.0kのアイテム数をミンティング。独自のシステムによって、マーケットへの出品やタグづけをコンピュータで行います。ミンティングサイトの実装も行います。',
         },
         {
-          title: '3. 収益はETHでクリエイターの元へ',
-          desc: '手数料を差し引いた全ての収益は、毎月クリエイターの元へ支払われます。税金などの計算も今後対応予定です。',
+          title: '3. ミンティングサイト・Dappsの開発',
+          desc: 'プロジェクトの需要に合わせて、既存マーケットプレイスへの出品からミンティングサイトの実装・Dapps開発まで幅広く手がけています。',
         },
       ]
     }
