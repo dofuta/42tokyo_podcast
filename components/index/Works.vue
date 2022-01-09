@@ -38,7 +38,7 @@ export default {
     justify-content: space-between;
     .item{
       // background-color: yellow;
-      padding: 10px 0;
+      padding: 15px 0;
       display: flex;
       flex-wrap: wrap;
       img {

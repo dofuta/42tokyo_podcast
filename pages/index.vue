@@ -156,7 +156,7 @@ export default {
       teams: [
         {
           img: {
-            src: require('@/assets/img/team/team7.jpg'),
+            src: require('@/assets/img/team/skagiya.2.webp'),
             alt: 'skagiya'
           },
           role: 'Block-chain Engineer',
@@ -166,13 +166,23 @@ export default {
         },
         {
           img: {
-            src: require('@/assets/img/team/team6.jpg'),
+            src: require('@/assets/img/team/aoiefk.2.webp'),
             alt: 'aoiefk'
           },
           role: 'Web Engineer',
           title: 'aoiefk',
           desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。<br/>42 Tokyo 1期生。',
           tw: 'https://twitter.com/aoiefk',
+        },
+        {
+          img: {
+            src: require('@/assets/img/team/syudai.2.webp'),
+            alt: 'syudai'
+          },
+          role: 'Web Engineer',
+          title: 'syudai',
+          desc: 'I do live with entrepreneurship.',
+          tw: 'https://syudai.vercel.app/',
         },
       ],
       media: [
