@@ -67,6 +67,9 @@
           </a>
         </column>
       </row>
+      <div class="leftside__credit">
+        illustrated by <a href="https://www.instagram.com/__dullboy__/?utm_medium=copy_link" target="_blank" rel='noreferrer'>@__dullboy__</a>
+      </div>
     </column>
     <column :xs="12" :md="6" class="rightside">
       <div class="rightside__info">
@@ -101,6 +104,18 @@ footer {
             color: $white;
             text-decoration: none;
           }
+        }
+      }
+      &__credit {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        @media (max-width: $tablet-width) {
+          display: none;
+        }
+        font-weight: $font-light;
+        a {
+          color: $white;
         }
       }
     }
