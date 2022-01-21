@@ -6,6 +6,11 @@
         <div class="container">
           <TopArea />
           <FadeIn>
+            <SubArea :title="'Topics'" :id="'topics'">
+              <Topics :items="topics"/>
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
             <SubArea :title="'Numbers'" :id="'numbers'">
               <Numbers :items="numbers"/>
             </SubArea>
@@ -42,6 +47,7 @@
 <script>
 import TopArea from '~/components/index/TopArea.vue';
 import SubArea from '~/components/index/SubArea.vue';
+import Topics from '~/components/index/topics.vue';
 import Logos from '~/components/index/Logos.vue';
 import Teams from '~/components/index/Teams.vue';
 import Numbers from '~/components/index/Numbers.vue';
@@ -55,6 +61,7 @@ export default {
   components: {
     TopArea,
     SubArea,
+    Topics,
     Logos,
     Teams,
     Numbers,
@@ -67,6 +74,20 @@ export default {
     return {
       backgroundImagePc: require('@/assets/img/graph.png'),
       backgroundImageSp: require('@/assets/img/graph_sp.png'),
+      topics: [
+        {
+          title: "THE FIRST TOUCH<br class='only_sp'/> 〜初めてプログラミングに触れた瞬間〜",
+          desc: 'ゲストにお呼びしたプログラマー・エンジニアが初めてプログラミングに触れた時のエピソードを伺っていきます。どんなエンジニアも初めはエンジニアじゃなかった。'
+        },
+        {
+          title: 'わたしのマスト・インストール',
+          desc: '知って良かったコマンドから、便利なツールやライブラリ、アプリ、はたまた日用品まで、ゲストの「マストインストール」を聞いていく企画です。知らなかった便利tipsが見つかるかも?',
+        },
+        {
+          title: '42Tokyoのハナシ',
+          desc: '42Tokyoでの学生生活から、入学を決めたきっかけ、今後の活動まで伺っていきます。謎の多いエンジニア養成機関、42 Tokyoのリアルな学生生活に迫ります。',
+        },
+      ],
       platforms: [
         {
           src: require('@/assets/img/logos/spotify.png'),

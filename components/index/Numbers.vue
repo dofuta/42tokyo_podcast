@@ -62,6 +62,7 @@ export default {
           vertical-align: middle;   //縦方向に中央寄せ
         }
         span {
+          margin-left: 5px;
           border-radius: 5px;
           padding: 1px 6px;
           color: $white;
