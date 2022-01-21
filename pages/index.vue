@@ -79,7 +79,7 @@ export default {
         {
           title: '🎮 #1 ゲスト hkamiyaさん / 42tokyo 学生',
           thumbnail: require('@/assets/img/numbers/01.jpg'),
-          link: 'https://soundcloud.com/user-159085754/1-hkamiya',
+          link: 'https://soundcloud.com/user-159085754/1-hkamiya/s-u6tNrs2eAjU?si=b370dc27bcab417c94af06f085d10646&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
           date: '2022.01.22'
         },
         // {
