@@ -18,6 +18,7 @@
           <FadeIn>
             <SubArea :title="'Platforms'" :id="'platforms'">
               <Logos :items="platforms"/>
+              ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。
             </SubArea>
           </FadeIn>
           <!--
@@ -27,16 +28,14 @@
             </SubArea>
           </FadeIn>
           -->
-          <!--
           <FadeIn>
-            <SubArea :title="'Contact'" :id="'contact'">
+            <SubArea :title="'Join Our Community'" :id="'join'">
               <Contacts :items="contacts"/>
             </SubArea>
             <p class="message">
-              - まずは気軽に相談してください✌️
+              <!-- メッセージが入ります。 -->
             </p>
           </FadeIn>
-          -->
         </div>
         <Footer />
       </div>
@@ -119,9 +118,9 @@ export default {
             w: 25,
             h: 20,
           },
-          text: 'Twitterからお問い合わせ',
-          link_pc: 'https://twitter.com/n42_official',
-          link_sp: 'https://twitter.com/messages/compose?recipient_id=1455754052868788224',
+          text: 'Twitterをフォローする',
+          link_pc: 'https://twitter.com/hw42tokyo',
+          link_sp: 'https://twitter.com/hw42tokyo',
           color: '#00A9F4',
         },
         {
@@ -130,9 +129,9 @@ export default {
             w: 20,
             h: 20,
           },
-          text: 'Discordからお問い合わせ',
-          link_pc: 'https://discord.gg/pyVXrd2xXY',
-          link_sp: 'https://discord.gg/pyVXrd2xXY',
+          text: 'Discordコミュニティに参加する',
+          link_pc: 'https://discord.gg/uuNRstFc',
+          link_sp: 'https://discord.gg/uuNRstFc',
           color: '#5769EA',
         },
       ],

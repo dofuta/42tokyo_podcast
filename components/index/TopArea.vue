@@ -1,7 +1,7 @@
 <template>
   <div class="toparea" >
     <p class="toparea__copy">
-      <img src="@/assets/img/logo.png">
+      <img src="@/assets/img/logo_white.png">
     </p>
     <p class="toparea__exact">
       <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<span class='bold'>42 Tokyo</span>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>

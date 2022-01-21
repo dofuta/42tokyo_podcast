@@ -5,15 +5,16 @@
     <column :xs="12" :md="6" class="leftside">
       <row class="leftside__links">
         <column :xs="6" :md="4" class="item">
-          <a href="#casestudies" class="link">
+          <a href="#numbers" class="link">
             <span class="mask">
               <div class="link-container">
                 <span class="link-title1 title">Numbers</span>
-                <span class="link-title2 title">一覧</span>
+                <span class="link-title2 title">過去放送回</span>
               </div>
             </span>
           </a>
         </column>
+        <!--
         <column :xs="6" :md="4" class="item">
           <a href="#team" class="link">
             <span class="mask">
@@ -24,12 +25,13 @@
             </span>
           </a>
         </column>
+        -->
         <column :xs="6" :md="4" class="item">
-          <a href="#contact" class="link">
+          <a href="#join" class="link">
             <span class="mask">
               <div class="link-container">
-                <span class="link-title1 title">Contact</span>
-                <span class="link-title2 title">お問い合わせ</span>
+                <span class="link-title1 title">Join Our Community</span>
+                <span class="link-title2 title">活動を覗いてみる</span>
               </div>
             </span>
           </a>
@@ -42,11 +44,10 @@
     <column :xs="12" :md="6" class="rightside">
       <div class="rightside__info">
         <div class="logo">
-          <!-- <img src="@/assets/img/logo_white.png" alt=""> -->
-          ロゴが入ります。
+          <img src="@/assets/img/logo_black.png" alt="">
         </div>
         <div class="info">
-          <p>Hello World - 42 Tokyo</p>
+          <!-- <p>Hello World - 42 Tokyo</p> -->
           <!-- <p>メールアドレスが入ります</p> -->
         </div>
       </div>
@@ -96,7 +97,7 @@ footer {
         display: flex;
         .logo {
           img {
-            width: 120px;
+            width: 300px;
             margin-right: 20px;
           }
         }

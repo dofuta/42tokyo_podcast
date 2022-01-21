@@ -3,23 +3,23 @@
     <div class="header__logo">
       <NuxtLink to="/" class="link">
         <img src="@/assets/img/hw_white.png">
-        
+
       </NuxtLink>
     </div>
     <div class="header__menu">
-      <a href="#team" class="link">
+      <a href="#numbers" class="link">
         <span class="mask">
           <div class="link-container">
-            <span class="link-title1 title">NUMBERS</span>
-            <span class="link-title2 title">一覧</span>
+            <span class="link-title1 title">Numbers</span>
+            <span class="link-title2 title">過去放送回</span>
           </div>
         </span>
       </a>
-      <a href="#contact" class="link">
+      <a href="#join" class="link">
         <span class="mask">
           <div class="link-container">
-            <span class="link-title1 title">CONTACT</span>
-            <span class="link-title2 title">お問い合わせ</span>
+            <span class="link-title1 title">Join Our Community</span>
+            <span class="link-title2 title">活動を覗いてみる</span>
           </div>
         </span>
       </a>
