@@ -75,7 +75,7 @@ export default {
           alt: 'Apple'
         },
       ],
-      Numbers: [
+      numbers: [
         {
           title: '『NFT福袋2022 販売までの40時間の戦い』をnoteに公開しました。',
           thumbnail: require('@/assets/img/numbers/nft2022.jpg'),
@@ -112,16 +112,6 @@ export default {
           link_sp: 'https://discord.gg/pyVXrd2xXY',
           color: '#5769EA',
         },
-        // {
-        //   img: {
-        //     src: require('@/assets/img/sns/tw.png'),
-        //     w: 20,
-        //     h: 20,
-        //   },
-        //   text: 'Instagramからお問い合わせ',
-        //   link: 'https://example.com/',
-        //   color: '#1E9BEF',
-        // }
       ],
     }
   },
