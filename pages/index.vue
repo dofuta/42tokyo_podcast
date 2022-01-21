@@ -77,17 +77,17 @@ export default {
       ],
       numbers: [
         {
-          title: '『NFT福袋2022 販売までの40時間の戦い』をnoteに公開しました。',
-          thumbnail: require('@/assets/img/numbers/nft2022.jpg'),
-          link: 'https://note.com/nfourtwo/n/nfbb846f52c74',
-          date: '2022.01.05'
+          title: '🎮 #1 ゲスト hkamiyaさん / 42tokyo 学生',
+          thumbnail: require('@/assets/img/numbers/01.jpg'),
+          link: 'https://soundcloud.com/user-159085754/1-hkamiya',
+          date: '2022.01.22'
         },
-        {
-          title: '『Generative NFT Collection の作り方』をnoteに公開しました。',
-          thumbnail: require('@/assets/img/numbers/tdc.jpg'),
-          link: 'https://note.com/aoiefk/n/n5f4576bdc8b9',
-          date: '2021.10.15'
-        }
+        // {
+        //   title: '『Generative NFT Collection の作り方』をnoteに公開しました。',
+        //   thumbnail: require('@/assets/img/numbers/tdc.jpg'),
+        //   link: 'https://note.com/aoiefk/n/n5f4576bdc8b9',
+        //   date: '2021.10.15'
+        // }
       ],
       contacts: [
         {

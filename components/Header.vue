@@ -2,8 +2,8 @@
   <header class="header">
     <div class="header__logo">
       <NuxtLink to="/" class="link">
-        <!-- <img src="@/assets/img/logo.png"> -->
-        ロゴが入ります。
+        <img src="@/assets/img/logo.png">
+        
       </NuxtLink>
     </div>
     <div class="header__menu">
@@ -40,7 +40,7 @@
   }
   &__logo {
     img {
-      width: 80px;
+      width: 160px;
     }
   }
   &__menu {
