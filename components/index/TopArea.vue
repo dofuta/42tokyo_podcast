@@ -1,7 +1,7 @@
 <template>
   <div class="toparea" >
     <p class="toparea__copy">
-      Hello World - 42 Tokyo
+      <img src="@/assets/img/logo.png">
     </p>
     <p class="toparea__exact">
       <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<span class='bold'>42 Tokyo</span>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
@@ -51,6 +51,9 @@ export default {
       font-size: 3rem;
       @media (max-width: $tablet-width) {
         font-size: 2rem;
+      }
+      img {
+        width: 100%;
       }
     }
     &__desc {
