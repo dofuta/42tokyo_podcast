@@ -1,14 +1,17 @@
 <template>
   <header class="header">
     <div class="header__logo">
-      <NuxtLink to="/" class="link"><img src="@/assets/img/logo.png"></NuxtLink>
+      <NuxtLink to="/" class="link">
+        <!-- <img src="@/assets/img/logo.png"> -->
+        ロゴが入ります。
+      </NuxtLink>
     </div>
     <div class="header__menu">
       <a href="#team" class="link">
         <span class="mask">
           <div class="link-container">
-            <span class="link-title1 title">TEAM</span>
-            <span class="link-title2 title">チーム</span>
+            <span class="link-title1 title">NUMBERS</span>
+            <span class="link-title2 title">一覧</span>
           </div>
         </span>
       </a>

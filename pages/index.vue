@@ -4,27 +4,15 @@
       <div class="sp" :style="{ backgroundImage: `url(${backgroundImageSp})`}">
         <Header />
         <div class="container">
-          <Background :asset="backgroundImage.top"/>
-          <!-- <Background :asset="backgroundImage.bottom"/> -->
           <TopArea />
           <FadeIn>
-            <SubArea :title="'Media'" :id="'media'">
-              <Media :items="media"/>
+            <SubArea :title="'Numbers'" :id="'numbers'">
+              <Numbers :items="numbers"/>
             </SubArea>
           </FadeIn>
           <FadeIn>
-            <SubArea :title="'Markets Supported'" :id="'markets'">
-              <Logos :items="markets"/>
-            </SubArea>
-          </FadeIn>
-          <FadeIn>
-            <SubArea :title="'Technologies'" :id="'technologies'">
-              <Logos :items="technologies"/>
-            </SubArea>
-          </FadeIn>
-          <FadeIn>
-            <SubArea :title="'Case Studies'" :id="'casestudies'">
-              <Works :items="works"/>
+            <SubArea :title="'Platforms'" :id="'platforms'">
+              <Logos :items="platforms"/>
             </SubArea>
           </FadeIn>
           <FadeIn>
@@ -32,6 +20,7 @@
               <Teams :items="teams"/>
             </SubArea>
           </FadeIn>
+          <!--
           <FadeIn>
             <SubArea :title="'Contact'" :id="'contact'">
               <Contacts :items="contacts"/>
@@ -40,7 +29,7 @@
               - まずは気軽に相談してください✌️
             </p>
           </FadeIn>
-
+          -->
         </div>
         <Footer />
       </div>
@@ -49,13 +38,11 @@
 </template>
 
 <script>
-import Background from '~/components/index/Background.vue';
 import TopArea from '~/components/index/TopArea.vue';
 import SubArea from '~/components/index/SubArea.vue';
 import Logos from '~/components/index/Logos.vue';
-import Works from '~/components/index/Works.vue';
 import Teams from '~/components/index/Teams.vue';
-import Media from '~/components/index/Media.vue';
+import Numbers from '~/components/index/Numbers.vue';
 import Contacts from '~/components/index/Contacts.vue';
 
 // fade in animation
@@ -67,11 +54,9 @@ export default {
     TopArea,
     SubArea,
     Logos,
-    Works,
     Teams,
-    Media,
+    Numbers,
     Contacts,
-    Background,
     FadeIn,
   },
   methods: {
@@ -90,111 +75,26 @@ export default {
       },
       backgroundImagePc: require('@/assets/img/graph.png'),
       backgroundImageSp: require('@/assets/img/graph_sp.png'),
-      markets: [
+      platforms: [
         {
-          src: require('@/assets/img/logos/opensea.png'),
-          alt: 'opensea'
+          src: require('@/assets/img/logos/spotify.png'),
+          alt: 'Spotify'
         },
         {
-          src: require('@/assets/img/logos/rariable.png'),
-          alt: 'Rariable'
-        },
-      ],
-      technologies: [
-        {
-          src: require('@/assets/img/logos/openzeppelin.png'),
-          alt: 'OpenZeppelin'
-        },
-        {
-          src: require('@/assets/img/logos/solidity.png'),
-          alt: 'Solidity'
-        },
-        {
-          src: require('@/assets/img/logos/ethereum.png'),
-          alt: 'Ethereum'
-        },
-        {
-          src: require('@/assets/img/logos/filecoin.png'),
-          alt: 'Filecoin'
-        },
-        {
-          src: require('@/assets/img/logos/pinata.png'),
-          alt: 'Pinata'
+          src: require('@/assets/img/logos/apple.png'),
+          alt: 'Apple'
         },
       ],
-      works: [
-        {
-          img: {
-            src: require('@/assets/img/works/tinydinoclub.jpg'),
-            alt: 'Tiny Dino Club / Generative'
-          },
-          title: 'Tiny Dino Club / Generative',
-          link: 'https://opensea.io/collection/tiny-dino-club-generative',
-          linktitle: 'Opensea',
-          desc: '1,000 items | 5.2ETH',
-        },
-        {
-          img: {
-            src: require('@/assets/img/works/nft2022.jpg'),
-            alt: 'NFT福袋2022'
-          },
-          title: 'NFT福袋2022',
-          link: 'https://twitter.com/nft_happy_bag',
-          linktitle: 'Twitter',
-          desc: '22 items | ¥444,840'
-        },
-        // {
-        //   img: {
-        //     src: require('@/assets/img/works/circlecircle.png'),
-        //     alt: 'Circle Circle'
-        //   },
-        //   title: 'Circle Circle',
-        //   link: 'https://opensea.io/collection/beautiful-circle-circle',
-        //   desc: '1,000 items | 0.0ETH'
-        // }
-      ],
-      teams: [
-        {
-          img: {
-            src: require('@/assets/img/team/skagiya.2.webp'),
-            alt: 'skagiya'
-          },
-          role: 'Block-chain Engineer',
-          title: 'skagiya',
-          desc: 'Python, Solidityを得意とする。<br/>バックエンド領域の実装を担当。<br/>42 Tokyo 1期生。',
-          tw: 'https://twitter.com/skagiya',
-        },
-        {
-          img: {
-            src: require('@/assets/img/team/aoiefk.2.webp'),
-            alt: 'aoiefk'
-          },
-          role: 'Web Engineer',
-          title: 'aoiefk',
-          desc: 'フロントエンド表現を得意とする。</br>Web領域全般を担当。<br/>42 Tokyo 1期生。',
-          tw: 'https://twitter.com/aoiefk',
-        },
-        {
-          img: {
-            src: require('@/assets/img/team/syudai.2.webp'),
-            alt: 'syudai'
-          },
-          role: 'Web Engineer',
-          title: 'syudai',
-          desc: 'I do live with entrepreneurship.',
-          tw: 'https://syudai.vercel.app/',
-        },
-      ],
-      media: [
+      Numbers: [
         {
           title: '『NFT福袋2022 販売までの40時間の戦い』をnoteに公開しました。',
-          thumbnail: require('@/assets/img/media/nft2022.jpg'),
+          thumbnail: require('@/assets/img/numbers/nft2022.jpg'),
           link: 'https://note.com/nfourtwo/n/nfbb846f52c74',
           date: '2022.01.05'
         },
         {
           title: '『Generative NFT Collection の作り方』をnoteに公開しました。',
-          thumbnail: require('@/assets/img/media/tdc.jpg'),
+          thumbnail: require('@/assets/img/numbers/tdc.jpg'),
           link: 'https://note.com/aoiefk/n/n5f4576bdc8b9',
           date: '2021.10.15'
         }

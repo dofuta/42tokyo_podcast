@@ -1,15 +1,15 @@
 <template>
   <div class="toparea" >
     <p class="toparea__copy">
-      あなたの作品を<br class="only_sp"/>NFTの世界へ
+      Hello World - 42 Tokyo
     </p>
     <p class="toparea__exact">
-      <span>n42</span> は、<span>NFT</span>を専門に扱う<br class="only_sp"/><span>デジタルクリエイティブチーム</span>です。<br>
-      あなたの作品を、<br class="only_sp"/><span>NFTコレクション</span> として<br class="only_sp"/>世界に届けるための <br class="only_sp"/><span>技術を提供</span>しています。<br><br>
+      <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<span class='bold'>42 Tokyo</span>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
+      生徒の我々が勝手に始めた<br class='only_sp'/>皆さんと作るラジオ番組です。
     </p>
     <div class="toparea__desc">
       <div class="item" v-for="item in items" :key="item.title">
-        <p class="item__title">{{item.title}}</p>
+        <p class="item__title" v-html="item.title"></p>
         <p class="item__desc">{{item.desc}}</p>
       </div>
     </div>
@@ -25,16 +25,16 @@ export default {
     return {
       items: [
         {
-          title: '1. 素材を元に様々なデジタル作品を生成',
-          desc: 'NFTコレクションを構成する素材をご用意いただき、そのデータ素材を乱数によってランダム生成します。時には素材を作るところから始めます。',
+          title: "THE FIRST TOUCH<br class='only_sp'/> 〜 初めてプログラミングに触れた瞬間",
+          desc: 'ゲストにお呼びしたプログラマー・エンジニアが初めてプログラミングに触れた瞬間を深ぼっていく企画です。'
         },
         {
-          title: '2. 独自コントラクト・ミンティング',
-          desc: '生成した画像を、1.0k ~ 10.0kのアイテム数をミンティング。独自のシステムによって、マーケットへの出品やタグづけをコンピュータで行います。ミンティングサイトの実装も行います。',
+          title: '今年のベストバイ・コマンド',
+          desc: '知って良かったコマンドから、便利なツールやライブラリ、アプリ、はたまた日用品まで、ゲストの「ベストバイ」を聞いていく企画です。',
         },
         {
-          title: '3. ミンティングサイト・Dappsの開発',
-          desc: 'プロジェクトの需要に合わせて、既存マーケットプレイスへの出品からミンティングサイトの実装・Dapps開発まで幅広く手がけています。',
+          title: '42について',
+          desc: '42 Tokyoの学生や、外部ゲストに、42について質問していきます。',
         },
       ]
     }
@@ -56,10 +56,11 @@ export default {
     &__desc {
       margin-top: 70px;
       .item {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         &__title {
-          line-height: 4rem;
+          line-height: 1.4rem;
           font-weight: $font-bold;
+          margin-bottom: 15px;
         }
         &__desc {
           font-weight: $font-medium;
@@ -73,9 +74,6 @@ export default {
       @media (max-width: $tablet-width) {
         font-size: 1.2rem;
         line-height: 2.0rem;
-      }
-      span {
-        font-weight: $font-bold;
       }
     }
   }

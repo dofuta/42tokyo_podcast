@@ -5,7 +5,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'n42',
+    title: 'Hello World - 42 Tokyo',
     htmlAttrs: {
       lang: 'en'
     },

@@ -5,43 +5,11 @@
     <column :xs="12" :md="6" class="leftside">
       <row class="leftside__links">
         <column :xs="6" :md="4" class="item">
-          <a href="#media" class="link">
-            <span class="mask">
-              <div class="link-container">
-                <span class="link-title1 title">Media</span>
-                <span class="link-title2 title">メディア</span>
-              </div>
-            </span>
-          </a>
-        </column>
-        <column :xs="6" :md="4" class="item">
-          <a href="#markets" class="link">
-            <span class="mask">
-              <div class="link-container">
-                <span class="link-title1 title">Markets Supported</span>
-                <span class="link-title2 title">対応マーケット</span>
-              </div>
-            </span>
-          </a>
-        </column>
-        <column :xs="6" :md="4" class="item">
-          <a href="#technologies" class="link">
-            <span class="mask">
-              <div class="link-container">
-                <span class="link-title1 title">Technologies</span>
-                <span class="link-title2 title">技術</span>
-              </div>
-            </span>
-          </a>
-        </column>
-      </row>
-      <row class="leftside__links">
-        <column :xs="6" :md="4" class="item">
           <a href="#casestudies" class="link">
             <span class="mask">
               <div class="link-container">
-                <span class="link-title1 title">Case Studies</span>
-                <span class="link-title2 title">実績</span>
+                <span class="link-title1 title">Numbers</span>
+                <span class="link-title2 title">一覧</span>
               </div>
             </span>
           </a>
@@ -50,8 +18,8 @@
           <a href="#team" class="link">
             <span class="mask">
               <div class="link-container">
-                <span class="link-title1 title">Team</span>
-                <span class="link-title2 title">チーム</span>
+                <span class="link-title1 title">Members</span>
+                <span class="link-title2 title">メンバー</span>
               </div>
             </span>
           </a>
@@ -68,17 +36,18 @@
         </column>
       </row>
       <div class="leftside__credit">
-        illustrated by <a href="https://www.instagram.com/__dullboy__/?utm_medium=copy_link" target="_blank" rel='noreferrer'>@__dullboy__</a>
+        <!-- ここにクレジットが入ります -->
       </div>
     </column>
     <column :xs="12" :md="6" class="rightside">
       <div class="rightside__info">
         <div class="logo">
-          <img src="@/assets/img/logo_white.png" alt="">
+          <!-- <img src="@/assets/img/logo_white.png" alt=""> -->
+          ロゴが入ります。
         </div>
         <div class="info">
-          <p>n42</p>
-          <p>info@nfourtwo.com</p>
+          <p>Hello World - 42 Tokyo</p>
+          <!-- <p>メールアドレスが入ります</p> -->
         </div>
       </div>
     </column>
