@@ -63,16 +63,6 @@ export default {
   },
   data() {
     return {
-      backgroundImage: {
-        top: {
-          path: require('@/assets/img/back_1.png'),
-          area: 'top'
-        },
-        bottom: {
-          path: require('@/assets/img/back_2.png'),
-          area: 'bottom'
-        }
-      },
       backgroundImagePc: require('@/assets/img/graph.png'),
       backgroundImageSp: require('@/assets/img/graph_sp.png'),
       platforms: [
@@ -149,7 +139,7 @@ export default {
         { hid: 'og:site_name', property: 'og:site_name', content: title },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: 'https://nfourtwo.com' },
-        { hid: 'og:image', property: 'og:image', content: 'https://nfourtwo.com/ogp.png' },
+        { hid: 'og:image', property: 'og:image', content: '' },
         { name: 'twitter:card', content: 'summary' },
       ]
     }
