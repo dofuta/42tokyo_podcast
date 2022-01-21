@@ -136,8 +136,8 @@ export default {
     }
   },
   head() {
-    const title = 'n42'
-    const desc = 'n42は、NFTコレクションを専門に扱うデジタルクリエイティブチームです。'
+    const title = 'Hello Wolrd - 42 Tokyo'
+    const desc = 'Hello Wolrd - 42 Tokyo は、プログラミングと42 Tokyoのそこ知れぬ魅力に迫るべく、 生徒の我々が勝手に始めた皆さんと作るラジオ番組です。'
     return {
       title: title,
       meta: [
