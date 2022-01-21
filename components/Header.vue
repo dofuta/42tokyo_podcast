@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__logo">
       <NuxtLink to="/" class="link">
-        <img src="@/assets/img/logo.png">
+        <img src="@/assets/img/hw_white.png">
         
       </NuxtLink>
     </div>
@@ -40,7 +40,7 @@
   }
   &__logo {
     img {
-      width: 160px;
+      width: 80px;
     }
   }
   &__menu {
