@@ -1,4 +1,4 @@
-# n42
+# Hello Wolrd - 42 Tokyo
 
 ## Build Setup
 
