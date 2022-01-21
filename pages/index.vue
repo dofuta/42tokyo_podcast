@@ -15,11 +15,13 @@
               <Logos :items="platforms"/>
             </SubArea>
           </FadeIn>
+          <!--
           <FadeIn>
             <SubArea :title="'Team'" :id="'team'">
               <Teams :items="teams"/>
             </SubArea>
           </FadeIn>
+          -->
           <!--
           <FadeIn>
             <SubArea :title="'Contact'" :id="'contact'">
