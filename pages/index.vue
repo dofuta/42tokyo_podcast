@@ -47,7 +47,7 @@
 <script>
 import TopArea from '~/components/index/TopArea.vue';
 import SubArea from '~/components/index/SubArea.vue';
-import Topics from '~/components/index/topics.vue';
+import Topics from '~/components/index/Topics.vue';
 import Logos from '~/components/index/Logos.vue';
 import Teams from '~/components/index/Teams.vue';
 import Numbers from '~/components/index/Numbers.vue';
