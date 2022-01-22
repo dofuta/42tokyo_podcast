@@ -5,7 +5,7 @@
     </p>
     <p class="toparea__exact">
       <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<span class='bold'>42 Tokyo</span>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
-      生徒の我々が勝手に始めた<br class='only_sp'/>皆さんと作るラジオ番組です。
+      学生の我々が勝手に始めた<br class='only_sp'/>皆さんと作るラジオ番組です。
       <br><br>
 
       <span class='bold'>プログラミング</span>や<span class='bold'>42Tokyo</span>に<br class='only_sp'/>興味があるみなさん、<br class='only_sp'/>42現役学生のみなさんに向けて、<br class='only_sp'/>毎回ゲストをお招きし、<br class='only_sp'/><span class='bold'>プログラミングの世界</span>との出会い<br class='only_sp'/>から、<span class='bold'>これからの世界</span>の話まで、<br class='only_sp'/>ゆるりと話していきます。
