@@ -21,13 +21,11 @@
               ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。
             </SubArea>
           </FadeIn>
-          <!--
           <FadeIn>
-            <SubArea :title="'Team'" :id="'team'">
+            <SubArea :title="'Teams'" :id="'team'">
               <Teams :items="teams"/>
             </SubArea>
           </FadeIn>
-          -->
           <FadeIn>
             <SubArea :title="'Join Our Community'" :id="'join'">
               <Contacts :items="contacts"/>
@@ -110,6 +108,48 @@ export default {
         //   link: 'https://note.com/aoiefk/n/n5f4576bdc8b9',
         //   date: '2021.10.15'
         // }
+      ],
+      teams: [
+        {
+          img: {
+            src: require('@/assets/img/teams/raida.jpeg'),
+            alt: 'raida'
+          },
+          role: 'パーソナリティー',
+          title: 'raida',
+          desc: 'ポッドキャスト「0から始めるエンジニア」を運営している。42 Tokyo 学生。',
+          tw: 'https://twitter.com/Raida042',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/dofuku.jpg'),
+            alt: 'tdofuku'
+          },
+          role: 'パーソナリティー',
+          title: 'tdofuku',
+          desc: 'Web領域全般を担当。42 Tokyo 学生。',
+          tw: 'https://twitter.com/TDofuku',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/kenta.jpeg'),
+            alt: 'kentakah'
+          },
+          role: 'パーソナリティー・企画',
+          title: 'kentakah',
+          desc: 'コピー・企画・渉外を担当。42 Tokyo 学生。',
+          tw: 'https://twitter.com/tkhshknt',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/anonymous_white.png'),
+            alt: '???'
+          },
+          role: '???',
+          title: '???',
+          desc: '一緒にラジオを作ってくれる人を募集中です！',
+          tw: 'https://twitter.com/hw42tokyo',
+        },
       ],
       contacts: [
         {
