@@ -30,7 +30,7 @@
           <a href="#join" class="link">
             <span class="mask">
               <div class="link-container">
-                <span class="link-title1 title">Join Our Community</span>
+                <span class="link-title1 title">Community</span>
                 <span class="link-title2 title">活動を覗いてみる</span>
               </div>
             </span>
