@@ -44,7 +44,7 @@
     <column :xs="12" :md="6" class="rightside">
       <div class="rightside__info">
         <div class="logo">
-          <img src="@/assets/img/logo_black.png" alt="">
+          <img src="@/assets/img/hw_black.png" alt="">
         </div>
         <div class="info">
           <!-- <p>Hello World - 42 Tokyo</p> -->
@@ -97,7 +97,7 @@ footer {
         display: flex;
         .logo {
           img {
-            width: 300px;
+            width: 80px;
             margin-right: 20px;
           }
         }
