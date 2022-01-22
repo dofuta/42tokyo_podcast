@@ -129,7 +129,7 @@ export default {
             w: 20,
             h: 20,
           },
-          text: 'Discordコミュニティに参加する',
+          text: 'Discordに参加する',
           link_pc: 'https://discord.gg/uuNRstFc',
           link_sp: 'https://discord.gg/uuNRstFc',
           color: '#5769EA',
