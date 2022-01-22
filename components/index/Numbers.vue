@@ -3,8 +3,9 @@
     <a class="item" v-for="(item, i) in items" :key="item.title" :href="item.link" target='_blank' rel='noreferrer'>
       <img class="thumbnail" :src="item.thumbnail" alt="">
       <div class="title">
-        <p>{{item.title}}
+        <p>
           <span v-if="i == 0">NEW!</span>
+          {{item.title}}
         </p>
       </div>
       <div class="date">
@@ -50,20 +51,23 @@ export default {
       .title {
         font-weight: $font-bold;
         color: $black;
-        display: table;               //tableタグのような表示
-        width: 100%;
+        //display: table;               //tableタグのような表示
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //width: 100%;
         height: 75px;
-        padding: 0 20px;
-        word-break: break-all;
+        padding-left:20px;
         @media (max-width: $tablet-width) {
           height: 50px;
         }
         p {
           display: table-cell;      //tdタグのような表示
           vertical-align: middle;   //縦方向に中央寄せ
+          word-break: break-all;
         }
         span {
-          margin-left: 5px;
+          margin-right: 5px;
           border-radius: 5px;
           padding: 1px 6px;
           color: $white;
