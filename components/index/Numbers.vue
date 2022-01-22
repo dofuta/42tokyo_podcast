@@ -54,6 +54,7 @@ export default {
         width: 100%;
         height: 75px;
         padding: 0 20px;
+        word-break: break-all;
         @media (max-width: $tablet-width) {
           height: 50px;
         }
