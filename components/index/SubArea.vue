@@ -37,7 +37,7 @@ export default {
           top: 60px;
           left: 0;
           width: 60px;/*線の長さ*/
-          height: 5px;/*線の太さ*/
+          height: 8px;/*線の太さ*/
           background-color: $green;/*線の色*/
         }
       }
