@@ -21,7 +21,7 @@ export default {
       .item {
         margin-bottom: 40px;
         &__title {
-          // border-bottom: 1px solid $black;
+          // border-bottom: 1px solid $white;
           line-height: 1.4rem;
           font-weight: $font-bold;
           margin-bottom: 15px;

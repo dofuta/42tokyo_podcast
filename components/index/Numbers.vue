@@ -29,8 +29,8 @@ export default {
     margin-bottom: 60px;
     .item {
       margin-top: 20px;
-      border-bottom: 1px solid $black;
-      border-left: 1px solid $black;
+      border-bottom: 1px solid $white;
+      border-left: 1px solid $white;
       padding: 30px;
       display: flex;
       position: relative;
@@ -50,7 +50,7 @@ export default {
       }
       .title {
         font-weight: $font-bold;
-        color: $black;
+        color: $white;
         //display: table;               //tableタグのような表示
         display: flex;
         justify-content: center;
@@ -70,7 +70,7 @@ export default {
           margin-right: 5px;
           border-radius: 5px;
           padding: 1px 6px;
-          color: $white;
+          color: $black;
           background-color: $green;
           font-size: 0.8rem;
           font-style: italic;
@@ -78,7 +78,7 @@ export default {
       }
       .date {
         position: absolute;
-        color: $gray;
+        color: $green;
         bottom: 30px;
         right: 30px;
         @media (max-width: $tablet-width) {

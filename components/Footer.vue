@@ -59,19 +59,19 @@
 
 <style lang="scss" scoped>
 footer {
-  background-color: $black;
+  background-color: $white;
   .footer {
     margin: 0 auto;
     padding: 50px 20px;
     height: 300px;
     max-width: $main-width;
-    color: $white;
+    color: $black;
     .leftside {
       &__links {
         .item {
           margin-bottom: 15px;
           a {
-            color: $white;
+            color: $black;
             text-decoration: none;
           }
         }
@@ -85,7 +85,7 @@ footer {
         }
         font-weight: $font-light;
         a {
-          color: $white;
+          color: $black;
         }
       }
     }

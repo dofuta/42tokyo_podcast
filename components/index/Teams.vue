@@ -81,7 +81,7 @@ export default {
 .link {
   margin-top: 10px;
   align-items: center;
-  color: #00A9F4;
+  color: $green;
   text-decoration: none;
   display: flex;
 }

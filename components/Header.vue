@@ -34,7 +34,7 @@
   position: fixed;
   padding: 20px;
   display: flex;
-  // background-color: $white;
+  // background-color: $black;
   @media (max-width: $tablet-width) {
     justify-content: space-between;
   }
@@ -50,7 +50,7 @@
       text-decoration: none;
       font-size: 1.2em;
       font-weight: $font-medium-bold;
-      color: $black;
+      color: $white;
       line-height: 40px;
       margin: 0 10px;
     }
@@ -86,7 +86,7 @@
   display: block;
 
   /*  Set same font-size and line height  */
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   line-height: 20px;
 
   transition: transform 0.4s ease;

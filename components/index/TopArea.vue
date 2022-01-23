@@ -5,7 +5,7 @@
     </p>
     <p class="toparea__exact">
       <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<span class='bold'>42 Tokyo</span>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
-      学生の我々が勝手に始めた<br class='only_sp'/>皆さんと作るラジオ番組です。
+      学生の我々が<span class='bold'>勝手に始めた<br class='only_sp'/>皆さんと作る</span>ラジオ番組です。
       <br><br>
 
       <span class='bold'>プログラミング</span>や<span class='bold'>42Tokyo</span>に<br class='only_sp'/>興味があるみなさん、<br class='only_sp'/>42現役学生のみなさんに向けて、<br class='only_sp'/>毎回ゲストをお招きし、<br class='only_sp'/><span class='bold'>プログラミングの世界</span>との出会い<br class='only_sp'/>から、<span class='bold'>これからの世界</span>の話まで、<br class='only_sp'/>ゆるりと話していきます。
@@ -45,8 +45,8 @@ export default {
       .item {
         margin-bottom: 40px;
         &__title {
-          border-bottom: 1px solid $black;
-          line-height: 1.4rem;
+          border-bottom: 1px solid $white;
+          line-height: 1.125rem;
           font-weight: $font-bold;
           margin-bottom: 15px;
         }
@@ -57,10 +57,10 @@ export default {
     }
     &__exact {
       margin-top: 100px;
-      font-size: 1.0rem;
+      font-size: 1.125rem;
       font-weight: $font-medium;
       @media (max-width: $tablet-width) {
-        font-size: 1.2rem;
+        font-size: 1.125rem;
         line-height: 2.0rem;
       }
     }

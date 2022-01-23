@@ -44,7 +44,7 @@ export default {
     flex-wrap: wrap;
     &__item{
       text-decoration: none;
-      border: 2px solid $black;
+      border: 2px solid $white;
       line-height: 40px;
       border-radius: 40px;
       margin-right: 40px;
@@ -58,7 +58,7 @@ export default {
         width: 100%;
         height: 100%;
         padding: 10px 40px;
-        background-color: $white;
+        background-color: $black;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         cursor: pointer;
         span {

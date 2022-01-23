@@ -1,9 +1,9 @@
 // Colors
-$white: #2C2C2C; //#FCFCFC;
-$black:#FCFCFC;// #2C2C2C;
+$black: #202026; //#FCFCFC;
+$white: #FFFFFF;// #2C2C2C;
 $blue: #6666ff;
-$gray: #888;
-$green: #55dd11;
+$gray: rgba(255, 255, 255, 0.5);
+$green: rgba(0, 186, 188, 1);
 
 // breakpoints
 $tablet-width: 768px;
@@ -14,5 +14,5 @@ $main-width: 1200px;
 // font-weight
 $font-light: 100;
 $font-medium: 300;
-$font-medium-bold: 500;
+$font-medium-bold: 700;
 $font-bold: 700;

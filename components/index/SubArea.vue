@@ -23,12 +23,23 @@ export default {
     &__title {
       margin-bottom: 30px;
       h2 {
-        border-bottom: 1px solid $black;
-        padding: 30px 0;
+        padding: 10px 0;
         display: inline;
         line-height: 100px;
-        color: $black;
+        color: $white;
+        font-size: 2.0rem;
         font-weight: $font-bold;
+        position: relative;
+        &:after {
+          content: '';
+          display: inline-block;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          width: 60px;/*線の長さ*/
+          height: 5px;/*線の太さ*/
+          background-color: $green;/*線の色*/
+        }
       }
     }
   }
