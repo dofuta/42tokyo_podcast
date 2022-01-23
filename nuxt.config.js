@@ -49,18 +49,19 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/style-resources',
-    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/google-gtag',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
 
-  googleAnalytics: {
-    id: 'UA-212164529-2'
-  }
+  'google-gtag': {
+    id: 'G-KZEMFP46NG',
+    debug: true, // Enable to track in dev mode.
+  },
 }
