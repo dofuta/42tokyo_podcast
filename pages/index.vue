@@ -81,8 +81,8 @@ export default {
           desc: '知って良かったコマンドから、便利なツールやライブラリ、アプリ、はたまた日用品まで、ゲストの「マストインストール」を聞いていく企画です。知らなかった便利tipsが見つかるかも?',
         },
         {
-          title: '42Tokyoのハナシ',
-          desc: '42Tokyoでの学生生活から、入学を決めたきっかけ、今後の活動まで伺っていきます。謎の多いエンジニア養成機関、42 Tokyoのリアルな学生生活に迫ります。',
+          title: '42 Tokyoのハナシ',
+          desc: '42 Tokyoでの学生生活から、入学を決めたきっかけ、今後の活動まで伺っていきます。謎の多いエンジニア養成機関、42 Tokyoのリアルな学生生活に迫ります。',
         },
       ],
       platforms: [
@@ -97,7 +97,7 @@ export default {
       ],
       numbers: [
         {
-          title: '🎮 #1 ゲスト hkamiyaさん / 42tokyo 学生',
+          title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
           thumbnail: require('@/assets/img/numbers/01.jpg'),
           link: 'https://soundcloud.com/user-159085754/1-hkamiya/s-u6tNrs2eAjU?si=b370dc27bcab417c94af06f085d10646&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
           date: '2022.01.22'
