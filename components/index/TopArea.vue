@@ -4,11 +4,11 @@
       <img src="@/assets/img/logo_white.png">
     </p>
     <p class="toparea__exact">
-      <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<span class='bold'>42 Tokyo</span>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
+      <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<a href="https://42tokyo.jp" target="_blank" rel="noopener noreferrer" class='bold'>42 Tokyo</a>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
       学生の我々が<span class='bold'>勝手に始めた<br class='only_sp'/>皆さんと作る</span>ラジオ番組です。
       <br><br>
 
-      <span class='bold'>プログラミング</span>や<span class='bold'>42 Tokyo</span>に<br class='only_sp'/>興味があるみなさん、<br class='only_sp'/>42現役学生のみなさんに向けて、<br class='only_sp'/>毎回ゲストをお招きし、<br class='only_sp'/><span class='bold'>プログラミングの世界</span>との出会い<br class='only_sp'/>から、<span class='bold'>これからの世界</span>の話まで、<br class='only_sp'/>ゆるりと話していきます。
+      <span class='bold'>プログラミング</span>や<a href="https://42tokyo.jp" target="_blank" rel="noopener noreferrer" class='bold'>42 Tokyo</a>に<br class='only_sp'/>興味があるみなさん、<br class='only_sp'/>現役42生の皆さんに向けて、<br class='only_sp'/>毎回ゲストをお招きし、<br class='only_sp'/><span class='bold'>プログラミングの世界</span>との出会い<br class='only_sp'/>から、<span class='bold'>これからの世界</span>の話まで、<br class='only_sp'/>ゆるりと話していきます。
 
     </p>
   </div>
@@ -62,6 +62,10 @@ export default {
       @media (max-width: $tablet-width) {
         font-size: 1.125rem;
         line-height: 2.0rem;
+      }
+      a {
+        color: $green;
+        text-decoration: underline;
       }
     }
   }
