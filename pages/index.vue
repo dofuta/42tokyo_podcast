@@ -34,6 +34,12 @@
               <!-- メッセージが入ります。 -->
             </p>
           </FadeIn>
+          <FadeIn>
+            <SubArea :title="'About 42 Tokyo'" :id="'42'">
+              <Abouts :items="abouts"/>
+            </SubArea>
+            </p>
+          </FadeIn>
         </div>
         <Footer />
       </div>
@@ -49,6 +55,7 @@ import Logos from '~/components/index/Logos.vue';
 import Teams from '~/components/index/Teams.vue';
 import Numbers from '~/components/index/Numbers.vue';
 import Contacts from '~/components/index/Contacts.vue';
+import Abouts from '~/components/index/Abouts.vue';
 
 // fade in animation
 import FadeIn from '~/components/FadeIn.vue';
@@ -63,6 +70,7 @@ export default {
     Teams,
     Numbers,
     Contacts,
+    Abouts,
     FadeIn,
   },
   methods: {
@@ -173,6 +181,11 @@ export default {
           link_pc: 'https://discord.gg/uuNRstFc',
           link_sp: 'https://discord.gg/uuNRstFc',
           color: '#5769EA',
+        },
+      ],
+      abouts: [
+        {
+          desc: '42 Tokyo（フォーティーツー）は、フランス発のエンジニア養成機関です。アメリカ・シリコンバレーをはじめ、世界各国に教育を展開しています。完全無料で、革新的なカリキュラムを学習可能。プログラミングを学びたい世界中の学生たちが、今この瞬間も42でスキルを磨いています。'
         },
       ],
     }
