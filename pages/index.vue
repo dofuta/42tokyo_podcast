@@ -123,22 +123,22 @@ export default {
         {
           img: {
             src: require('@/assets/img/teams/dofuku.jpg'),
-            alt: 'tdofuku'
+            alt: 'Monesynth Dofuku'
           },
           role: 'パーソナリティー',
-          title: 'tdofuku',
+          title: 'Monesynth Dofuku',
           desc: 'Web領域全般を担当。42 Tokyo 学生。',
-          tw: 'https://twitter.com/TDofuku',
+          tw: 'https://twitter.com/mdofuku',
         },
         {
           img: {
             src: require('@/assets/img/teams/kenta.jpeg'),
-            alt: 'kentakah'
+            alt: 'Kenta A. Takahashi'
           },
           role: 'パーソナリティー・企画',
-          title: 'kentakah',
+          title: 'Kenta A. Takahashi',
           desc: 'コピー・企画・渉外を担当。42 Tokyo 学生。',
-          tw: 'https://twitter.com/tkhshknt',
+          tw: 'https://twitter.com/tkhshknta',
         },
         {
           img: {
