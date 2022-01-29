@@ -1,4 +1,4 @@
-# Hello Wolrd - 42 Tokyo
+# Hello World - 42 Tokyo
 
 ## Build Setup
 

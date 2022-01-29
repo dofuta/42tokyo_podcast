@@ -4,7 +4,7 @@
       <img src="@/assets/img/logo_white.png">
     </p>
     <p class="toparea__exact">
-      <span class='bold'>Hello Wolrd - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<a href="https://42tokyo.jp" target="_blank" rel="noopener noreferrer" class='bold'>42 Tokyo</a>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
+      <span class='bold'>Hello World - 42 Tokyo</span> は、<br class='only_sp'/><span class='bold'>プログラミング</span>と<a href="https://42tokyo.jp" target="_blank" rel="noopener noreferrer" class='bold'>42 Tokyo</a>の<br class='only_sp'/>そこ知れぬ魅力に迫るべく、<br class='only_sp'/>
       学生の我々が<span class='bold'>勝手に始めた<br class='only_sp'/>皆さんと作る</span>ラジオ番組です。
       <br><br>
 

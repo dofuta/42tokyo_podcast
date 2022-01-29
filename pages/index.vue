@@ -191,8 +191,8 @@ export default {
     }
   },
   head() {
-    const title = 'Hello Wolrd - 42 Tokyo'
-    const desc = 'Hello Wolrd - 42 Tokyo は、プログラミングと42 Tokyoのそこ知れぬ魅力に迫るべく、 学生の我々が勝手に始めた皆さんと作るラジオ番組です。'
+    const title = 'Hello World - 42 Tokyo'
+    const desc = 'Hello World - 42 Tokyo は、プログラミングと42 Tokyoのそこ知れぬ魅力に迫るべく、 学生の我々が勝手に始めた皆さんと作るラジオ番組です。'
     return {
       title: title,
       meta: [
