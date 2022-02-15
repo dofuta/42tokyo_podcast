@@ -145,8 +145,18 @@ export default {
           },
           role: 'パーソナリティー・企画',
           title: 'Kenta A. Takahashi',
-          desc: 'コピー・企画・渉外を担当。42 Tokyo 学生。',
-          tw: 'https://twitter.com/tkhshknta',
+          desc: 'コピー・企画・渉外を担当。普段は広告屋さんプロデューサー。42 Tokyo 学生。',
+          tw: 'https://twitter.com/tkhshknt',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/kawano.jpeg'),
+            alt: 'kawano'
+          },
+          role: 'キャスティング',
+          title: 'kkawano',
+          desc: 'Hello Worldのキャスティングを担当。六本木校舎にパワーラックを導入。42 Tokyo 学生。',
+          tw: 'https://twitter.com/retriver_42',
         },
         {
           img: {
