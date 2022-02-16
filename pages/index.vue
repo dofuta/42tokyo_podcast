@@ -18,7 +18,8 @@
           <FadeIn>
             <SubArea :title="'Platforms'" :id="'platforms'">
               <Logos :items="platforms"/>
-              ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。
+              ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。</br>
+              ※Getting Ready. We will be providing podcasts only in the 42 Tokyo campus for the time being.
             </SubArea>
           </FadeIn>
           <FadeIn>
@@ -104,6 +105,12 @@ export default {
         },
       ],
       numbers: [
+        {
+          title: '🚃 #2 ゲスト dhasegawさん / 42 Tokyo 学生',
+          thumbnail: require('@/assets/img/numbers/02.jpg'),
+          link: 'https://soundcloud.com/user-159085754/2-dhasegaw-42tokyo?si=883b48977eba4ffdb14c22b23054322d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+          date: '2022.02.16'
+        },
         {
           title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
           thumbnail: require('@/assets/img/numbers/01.jpg'),
