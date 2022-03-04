@@ -26,6 +26,7 @@ export default {
       img {
         height: 45px;
         transition: opacity 0.3s;
+        border-radius: 5px;
         @media (max-width: $tablet-width) {
           height: 40px;
         }

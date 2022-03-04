@@ -100,11 +100,16 @@ export default {
           alt: 'Spotify',
           url: 'https://open.spotify.com/show/1SF8JFcX9LMqPVo6IEu5GY'
         },
-        // {
-        //   src: require('@/assets/img/logos/apple.png'),
-        //   alt: 'Apple',
-        //   url: ''
-        // },
+        {
+          src: require('@/assets/img/logos/apple.png'),
+          alt: 'Apple',
+          url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
+        },
+        {
+          src: require('@/assets/img/logos/soundcloud.png'),
+          alt: 'SoundCloud',
+          url: 'https://soundcloud.com/user-159085754'
+        }
       ],
       numbers: [
         {
