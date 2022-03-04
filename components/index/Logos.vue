@@ -1,8 +1,8 @@
 <template>
   <div class="logos">
-    <div class="logos__item" v-for="item in items" :key="item.alt">
+    <a class="logos__item" v-for="item in items" :key="item.alt" :href="item.url" target="_blank" rel="noreferrer noopener">
       <img :src="item.src" :alt="item.alt"/>
-    </div>
+    </a>
   </div>
 </template>
 
@@ -20,12 +20,17 @@ export default {
     display: flex;
     flex-wrap: wrap;
     &__item{
-      padding: 10px 0;
       margin-right: 40px;
+      background-color: $white;
+      border-radius: 10px;
       img {
         height: 45px;
+        transition: opacity 0.3s;
         @media (max-width: $tablet-width) {
           height: 40px;
+        }
+        &:hover {
+          opacity: 0.7;
         }
       }
     }

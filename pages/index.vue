@@ -18,8 +18,8 @@
           <FadeIn>
             <SubArea :title="'Platforms'" :id="'platforms'">
               <Logos :items="platforms"/>
-              ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。</br>
-              ※Getting Ready. We will be providing podcasts only in the 42 Tokyo campus for the time being.
+              <!-- ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。</br> -->
+              <!-- ※Getting Ready. We will be providing podcasts only in the 42 Tokyo campus for the time being. -->
             </SubArea>
           </FadeIn>
           <FadeIn>
@@ -97,32 +97,40 @@ export default {
       platforms: [
         {
           src: require('@/assets/img/logos/spotify.png'),
-          alt: 'Spotify'
+          alt: 'Spotify',
+          url: 'https://open.spotify.com/show/1SF8JFcX9LMqPVo6IEu5GY'
         },
-        {
-          src: require('@/assets/img/logos/apple.png'),
-          alt: 'Apple'
-        },
+        // {
+        //   src: require('@/assets/img/logos/apple.png'),
+        //   alt: 'Apple',
+        //   url: ''
+        // },
       ],
       numbers: [
         {
-          title: '🚃 #2 ゲスト dhasegawさん / 42 Tokyo 学生',
-          thumbnail: require('@/assets/img/numbers/02.jpg'),
-          link: 'https://soundcloud.com/user-159085754/2-dhasegaw-42tokyo?si=883b48977eba4ffdb14c22b23054322d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-          date: '2022.02.16'
-        },
-        {
-          title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
-          thumbnail: require('@/assets/img/numbers/01.jpg'),
-          link: 'https://soundcloud.com/user-159085754/1-hkamiya/s-u6tNrs2eAjU?si=b370dc27bcab417c94af06f085d10646&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-          date: '2022.01.22'
+          title: '🔰 #0 学生ポッドキャスト、はじめました。',
+          thumbnail: require('@/assets/img/numbers/00.jpg'),
+          link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+          date: '2022.03.04'
         },
         // {
-        //   title: '『Generative NFT Collection の作り方』をnoteに公開しました。',
-        //   thumbnail: require('@/assets/img/numbers/tdc.jpg'),
-        //   link: 'https://note.com/aoiefk/n/n5f4576bdc8b9',
-        //   date: '2021.10.15'
-        // }
+        //   title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
+        //   thumbnail: require('@/assets/img/numbers/03.jpg'),
+        //   link: 'https://soundcloud.com/user-159085754/3-ytaisei-42tokyo',
+        //   date: '2022.03.04'
+        // },
+        // {
+        //   title: '🚃 #2 ゲスト dhasegawさん / 42 Tokyo 学生',
+        //   thumbnail: require('@/assets/img/numbers/02.jpg'),
+        //   link: 'https://soundcloud.com/user-159085754/2-dhasegaw-42tokyo?si=883b48977eba4ffdb14c22b23054322d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+        //   date: '2022.02.16'
+        // },
+        // {
+        //   title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
+        //   thumbnail: require('@/assets/img/numbers/01.jpg'),
+        //   link: 'https://soundcloud.com/user-159085754/1-hkamiya/s-u6tNrs2eAjU?si=b370dc27bcab417c94af06f085d10646&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+        //   date: '2022.01.22'
+        // },
       ],
       teams: [
         {
