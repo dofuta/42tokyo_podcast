@@ -237,7 +237,7 @@ export default {
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:url', property: 'og:url', content: url },
         { hid: 'og:image', property: 'og:image', content: ogimg },
-        { name: 'twitter:card', content: 'large' },
+        { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       ]
     }
   },
