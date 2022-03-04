@@ -20,7 +20,10 @@ export default {
     display: flex;
     flex-wrap: wrap;
     &__item{
-      margin-right: 40px;
+      @media (max-width: $tablet-width) {
+        margin-top: 20px;
+      }
+      margin-right: 20px;
       background-color: $white;
       border-radius: 10px;
       img {
