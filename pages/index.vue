@@ -223,6 +223,8 @@ export default {
   head() {
     const title = 'Hello World - 42 Tokyo'
     const desc = 'Hello World - 42 Tokyo は、プログラミングと42 Tokyoのそこ知れぬ魅力に迫るべく、 学生の我々が勝手に始めた皆さんと作るラジオ番組です。'
+    const ogimg = 'https://helloworld.42tokyo.jp/ogp.png'
+    const url = 'https://helloworld.42tokyo.jp'
     return {
       title: title,
       meta: [
@@ -233,8 +235,8 @@ export default {
         { hid: 'og:description', property: 'og:description', content: desc },
         { hid: 'og:site_name', property: 'og:site_name', content: title },
         { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:url', property: 'og:url', content: 'https://nfourtwo.com' },
-        { hid: 'og:image', property: 'og:image', content: '' },
+        { hid: 'og:url', property: 'og:url', content: url },
+        { hid: 'og:image', property: 'og:image', content: ogimg },
         { name: 'twitter:card', content: 'summary' },
       ]
     }
