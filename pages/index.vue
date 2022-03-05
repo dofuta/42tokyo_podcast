@@ -39,7 +39,6 @@
             <SubArea :title="'About 42 Tokyo'" :id="'42'">
               <Abouts :items="abouts"/>
             </SubArea>
-            </p>
           </FadeIn>
         </div>
         <Footer />
