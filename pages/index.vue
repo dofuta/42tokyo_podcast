@@ -112,6 +112,12 @@ export default {
       ],
       numbers: [
         {
+          title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
+          thumbnail: require('@/assets/img/numbers/01.jpg'),
+          link: 'https://soundcloud.com/user-159085754/1-hkamiya/s-u6tNrs2eAjU?si=b370dc27bcab417c94af06f085d10646&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+          date: '2022.03.12'
+        },
+        {
           title: '🔰 #0 学生ポッドキャスト、はじめました。',
           thumbnail: require('@/assets/img/numbers/00.jpg'),
           link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
@@ -128,12 +134,6 @@ export default {
         //   thumbnail: require('@/assets/img/numbers/02.jpg'),
         //   link: 'https://soundcloud.com/user-159085754/2-dhasegaw-42tokyo?si=883b48977eba4ffdb14c22b23054322d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
         //   date: '2022.02.16'
-        // },
-        // {
-        //   title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
-        //   thumbnail: require('@/assets/img/numbers/01.jpg'),
-        //   link: 'https://soundcloud.com/user-159085754/1-hkamiya/s-u6tNrs2eAjU?si=b370dc27bcab417c94af06f085d10646&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-        //   date: '2022.01.22'
         // },
       ],
       teams: [
