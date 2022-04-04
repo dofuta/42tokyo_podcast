@@ -111,6 +111,24 @@ export default {
         }
       ],
       numbers: [
+        // {
+        //   title: '🍜 #4 ゲスト hyoshieさん / 42 Tokyo 学生',
+        //   thumbnail: require('@/assets/img/numbers/04.jpg'),
+        //   link: 'https://soundcloud.com/user-159085754/2-hyoshie-42tokyo',
+        //   date: '2022.04.16'
+        // },
+        // {
+        //   title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
+        //   thumbnail: require('@/assets/img/numbers/03.jpg'),
+        //   link: 'https://soundcloud.com/user-159085754/3-ytaisei-42tokyo',
+        //   date: '2022.04.09'
+        // },
+        {
+          title: '🚃 #2 ゲスト dhasegawさん / 42 Tokyo 学生',
+          thumbnail: require('@/assets/img/numbers/02.jpg'),
+          link: 'https://soundcloud.com/user-159085754/2-dhasegaw-42tokyo?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+          date: '2022.04.02'
+        },
         {
           title: '🎮 #1 ゲスト hkamiyaさん / 42 Tokyo 学生',
           thumbnail: require('@/assets/img/numbers/01.jpg'),
@@ -123,18 +141,6 @@ export default {
           link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
           date: '2022.03.04'
         },
-        // {
-        //   title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
-        //   thumbnail: require('@/assets/img/numbers/03.jpg'),
-        //   link: 'https://soundcloud.com/user-159085754/3-ytaisei-42tokyo',
-        //   date: '2022.03.04'
-        // },
-        // {
-        //   title: '🚃 #2 ゲスト dhasegawさん / 42 Tokyo 学生',
-        //   thumbnail: require('@/assets/img/numbers/02.jpg'),
-        //   link: 'https://soundcloud.com/user-159085754/2-dhasegaw-42tokyo?si=883b48977eba4ffdb14c22b23054322d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-        //   date: '2022.02.16'
-        // },
       ],
       teams: [
         {
