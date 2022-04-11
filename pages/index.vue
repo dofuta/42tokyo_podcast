@@ -117,12 +117,12 @@ export default {
         //   link: 'https://soundcloud.com/user-159085754/2-hyoshie-42tokyo',
         //   date: '2022.04.16'
         // },
-        // {
-        //   title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
-        //   thumbnail: require('@/assets/img/numbers/03.jpg'),
-        //   link: 'https://soundcloud.com/user-159085754/3-ytaisei-42tokyo',
-        //   date: '2022.04.09'
-        // },
+        {
+          title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
+          thumbnail: require('@/assets/img/numbers/03.jpg'),
+          link: 'https://anchor.fm/hello-world-42tokyo/episodes/3--ytaisei--42tokyo-e1gin7r',
+          date: '2022.04.09'
+        },
         {
           title: '🚃 #2 ゲスト dhasegawさん / 42 Tokyo 学生',
           thumbnail: require('@/assets/img/numbers/02.jpg'),
