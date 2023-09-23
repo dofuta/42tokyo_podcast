@@ -28,6 +28,23 @@
             </SubArea>
           </FadeIn>
           <FadeIn>
+            <SubArea :title="'OldNumbers'" :id="'oldnumbers'">
+              <Numbers :items="oldnumbers"/>
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
+            <SubArea :title="'Platforms'" :id="'platforms'">
+              <Logos :items="platforms"/>
+              <!-- ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。</br> -->
+              <!-- ※Getting Ready. We will be providing podcasts only in the 42 Tokyo campus for the time being. -->
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
+            <SubArea :title="'OldTeams'" :id="'oldteam'">
+              <Teams :items="oldteams"/>
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
             <SubArea :title="'Join Our Community'" :id="'join'">
               <Contacts :items="contacts"/>
             </SubArea>
@@ -81,14 +98,6 @@ export default {
       backgroundImageSp: require('@/assets/img/graph_sp.png'),
       topics: [
         {
-          title: "THE FIRST TOUCH<br class='only_sp'/> 〜初めてプログラミングに触れた瞬間〜",
-          desc: 'ゲストにお呼びしたプログラマー・エンジニアが初めてプログラミングに触れた時のエピソードを伺っていきます。どんなエンジニアも初めはエンジニアじゃなかった。'
-        },
-        {
-          title: 'わたしのマスト・インストール',
-          desc: '知って良かったコマンドから、便利なツールやライブラリ、アプリ、はたまた日用品まで、ゲストの「マストインストール」を聞いていく企画です。知らなかった便利tipsが見つかるかも?',
-        },
-        {
           title: '42 Tokyoのハナシ',
           desc: '42 Tokyoでの学生生活から、入学を決めたきっかけ、今後の活動まで伺っていきます。謎の多いエンジニア養成機関、42 Tokyoのリアルな学生生活に迫ります。',
         },
@@ -111,12 +120,45 @@ export default {
         }
       ],
       numbers: [
-        // {
-        //   title: '🍜 #4 ゲスト hyoshieさん / 42 Tokyo 学生',
-        //   thumbnail: require('@/assets/img/numbers/04.jpg'),
-        //   link: 'https://soundcloud.com/user-159085754/2-hyoshie-42tokyo',
-        //   date: '2022.04.16'
-        // },
+        {
+          title: '#1 新学生ポッドキャスト、はじめました。',
+          thumbnail: require('@/assets/img/numbers/new01.png'),
+          link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+          date: '2023.09.23'
+        },
+      ],
+      teams: [
+        {
+          img: {
+            src: require('@/assets/img/teams/rakko.png'),
+            alt: 'rakko'
+          },
+          role: 'パーソナリティー',
+          title: 'rakko船長',
+          desc: '42 Tokyo 学生。',
+          tw: 'https://twitter.com/42rakko',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/taiphyyy.jpeg'),
+            alt: 'taiphyyy'
+          },
+          role: 'パーソナリティー',
+          title: 'taiphyyy',
+          desc: '42 Tokyo 学生。',
+          tw: 'https://twitter.com/taiphyyy',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/nazo.jpeg'),
+            alt: 'nazo'
+          },
+          role: '謎',
+          title: '謎',
+          desc: '編集。42 Tokyo 学生。',
+        },
+      ],
+      oldnumbers: [
         {
           title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
           thumbnail: require('@/assets/img/numbers/03.jpg'),
@@ -142,7 +184,7 @@ export default {
           date: '2022.03.04'
         },
       ],
-      teams: [
+      oldteams: [
         {
           img: {
             src: require('@/assets/img/teams/raida.jpeg'),
@@ -205,17 +247,6 @@ export default {
           link_pc: 'https://twitter.com/hw42tokyo',
           link_sp: 'https://twitter.com/hw42tokyo',
           color: '#00A9F4',
-        },
-        {
-          img: {
-            src: require('@/assets/img/sns/dc.png'),
-            w: 20,
-            h: 20,
-          },
-          text: 'Discordに参加する',
-          link_pc: 'https://discord.gg/E9er6NFhAg',
-          link_sp: 'https://discord.gg/E9er6NFhAg',
-          color: '#5769EA',
         },
       ],
       abouts: [
