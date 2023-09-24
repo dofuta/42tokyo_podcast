@@ -34,7 +34,7 @@
           </FadeIn>
           <FadeIn>
             <SubArea :title="'Platforms'" :id="'platforms'">
-              <Logos :items="platforms"/>
+              <Logos :items="oldplatforms"/>
               <!-- ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。</br> -->
               <!-- ※Getting Ready. We will be providing podcasts only in the 42 Tokyo campus for the time being. -->
             </SubArea>
@@ -106,24 +106,24 @@ export default {
         {
           src: require('@/assets/img/logos/spotify.png'),
           alt: 'Spotify',
-          url: 'https://open.spotify.com/show/1SF8JFcX9LMqPVo6IEu5GY'
+          url: 'https://open.spotify.com/show/1sJfqgRoLvcDDx7bj7ljA8'
         },
-        {
-          src: require('@/assets/img/logos/apple.png'),
-          alt: 'Apple',
-          url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
-        },
-        {
-          src: require('@/assets/img/logos/soundcloud.png'),
-          alt: 'SoundCloud',
-          url: 'https://soundcloud.com/user-159085754'
-        }
+      //   {
+      //     src: require('@/assets/img/logos/apple.png'),
+      //     alt: 'Apple',
+      //     url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
+      //   },
+      //   {
+      //     src: require('@/assets/img/logos/soundcloud.png'),
+      //     alt: 'SoundCloud',
+      //     url: 'https://soundcloud.com/user-159085754'
+      //   }
       ],
       numbers: [
         {
           title: '#1 新学生ポッドキャスト、はじめました。',
           thumbnail: require('@/assets/img/numbers/new01.jpeg'),
-          link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+          link: 'https://open.spotify.com/episode/0fz4b5aYRH4fvOpbW1v8X7',
           date: '2023.09.23'
         },
       ],
@@ -183,6 +183,23 @@ export default {
           link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
           date: '2022.03.04'
         },
+      ],
+      oldplatforms: [
+        {
+          src: require('@/assets/img/logos/spotify.png'),
+          alt: 'Spotify',
+          url: 'https://open.spotify.com/show/1SF8JFcX9LMqPVo6IEu5GY'
+        },
+        {
+          src: require('@/assets/img/logos/apple.png'),
+          alt: 'Apple',
+          url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
+        },
+        {
+          src: require('@/assets/img/logos/soundcloud.png'),
+          alt: 'SoundCloud',
+          url: 'https://soundcloud.com/user-159085754'
+        }
       ],
       oldteams: [
         {
