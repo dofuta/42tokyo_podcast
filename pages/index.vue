@@ -122,7 +122,7 @@ export default {
       numbers: [
         {
           title: '#1 新学生ポッドキャスト、はじめました。',
-          thumbnail: require('@/assets/img/numbers/new01.png'),
+          thumbnail: require('@/assets/img/numbers/new01.jpeg'),
           link: 'https://soundcloud.com/user-159085754/ibwbthvujypa?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
           date: '2023.09.23'
         },
@@ -130,7 +130,7 @@ export default {
       teams: [
         {
           img: {
-            src: require('@/assets/img/teams/rakko.png'),
+            src: require('@/assets/img/teams/rakko.jpeg'),
             alt: 'rakko'
           },
           role: 'パーソナリティー',
@@ -251,7 +251,7 @@ export default {
       ],
       abouts: [
         {
-          desc: '42 Tokyo（フォーティーツー）は、フランス発のエンジニア養成機関です。アメリカ・シリコンバレーをはじめ、世界各国に教育を展開しています。完全無料で、革新的なカリキュラムを学習可能。プログラミングを学びたい世界中の学生たちが、今この瞬間も42でスキルを磨いています。'
+          desc: '42 Tokyo（フォーティーツー）は、フランス発のエンジニア養成機関です。世界各国に教育を展開しています。完全無料で、革新的なカリキュラムを学習可能。エンジニアリングを学びたい世界中の学生たちが、今この瞬間も42でスキルを磨いています。'
         },
       ],
     }
