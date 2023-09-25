@@ -28,6 +28,23 @@
             </SubArea>
           </FadeIn>
           <FadeIn>
+            <SubArea :title="'OldNumbers'" :id="'oldnumbers'">
+              <Numbers :items="oldnumbers"/>
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
+            <SubArea :title="'Platforms'" :id="'platforms'">
+              <Logos :items="oldplatforms"/>
+              <!-- ※準備中です。しばらくは、42 Tokyo キャンパス内部でクローズド配信します。</br> -->
+              <!-- ※Getting Ready. We will be providing podcasts only in the 42 Tokyo campus for the time being. -->
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
+            <SubArea :title="'OldTeams'" :id="'oldteam'">
+              <Teams :items="oldteams"/>
+            </SubArea>
+          </FadeIn>
+          <FadeIn>
             <SubArea :title="'Join Our Community'" :id="'join'">
               <Contacts :items="contacts"/>
             </SubArea>
@@ -81,14 +98,6 @@ export default {
       backgroundImageSp: require('@/assets/img/graph_sp.png'),
       topics: [
         {
-          title: "THE FIRST TOUCH<br class='only_sp'/> 〜初めてプログラミングに触れた瞬間〜",
-          desc: 'ゲストにお呼びしたプログラマー・エンジニアが初めてプログラミングに触れた時のエピソードを伺っていきます。どんなエンジニアも初めはエンジニアじゃなかった。'
-        },
-        {
-          title: 'わたしのマスト・インストール',
-          desc: '知って良かったコマンドから、便利なツールやライブラリ、アプリ、はたまた日用品まで、ゲストの「マストインストール」を聞いていく企画です。知らなかった便利tipsが見つかるかも?',
-        },
-        {
           title: '42 Tokyoのハナシ',
           desc: '42 Tokyoでの学生生活から、入学を決めたきっかけ、今後の活動まで伺っていきます。謎の多いエンジニア養成機関、42 Tokyoのリアルな学生生活に迫ります。',
         },
@@ -97,26 +106,59 @@ export default {
         {
           src: require('@/assets/img/logos/spotify.png'),
           alt: 'Spotify',
-          url: 'https://open.spotify.com/show/1SF8JFcX9LMqPVo6IEu5GY'
+          url: 'https://open.spotify.com/show/1sJfqgRoLvcDDx7bj7ljA8'
         },
-        {
-          src: require('@/assets/img/logos/apple.png'),
-          alt: 'Apple',
-          url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
-        },
-        {
-          src: require('@/assets/img/logos/soundcloud.png'),
-          alt: 'SoundCloud',
-          url: 'https://soundcloud.com/user-159085754'
-        }
+      //   {
+      //     src: require('@/assets/img/logos/apple.png'),
+      //     alt: 'Apple',
+      //     url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
+      //   },
+      //   {
+      //     src: require('@/assets/img/logos/soundcloud.png'),
+      //     alt: 'SoundCloud',
+      //     url: 'https://soundcloud.com/user-159085754'
+      //   }
       ],
       numbers: [
-        // {
-        //   title: '🍜 #4 ゲスト hyoshieさん / 42 Tokyo 学生',
-        //   thumbnail: require('@/assets/img/numbers/04.jpg'),
-        //   link: 'https://soundcloud.com/user-159085754/2-hyoshie-42tokyo',
-        //   date: '2022.04.16'
-        // },
+        {
+          title: '#1 新学生ポッドキャスト、はじめました。',
+          thumbnail: require('@/assets/img/numbers/new01.jpeg'),
+          link: 'https://open.spotify.com/episode/0fz4b5aYRH4fvOpbW1v8X7',
+          date: '2023.09.23'
+        },
+      ],
+      teams: [
+        {
+          img: {
+            src: require('@/assets/img/teams/rakko.jpeg'),
+            alt: 'rakko'
+          },
+          role: 'パーソナリティー',
+          title: 'rakko船長',
+          desc: '42 Tokyo 学生。',
+          tw: 'https://twitter.com/42rakko',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/taiphyyy.jpeg'),
+            alt: 'taiphyyy'
+          },
+          role: 'パーソナリティー',
+          title: 'taiphyyy',
+          desc: '42 Tokyo 学生。',
+          tw: 'https://twitter.com/taiphyyy',
+        },
+        {
+          img: {
+            src: require('@/assets/img/teams/nazo.jpeg'),
+            alt: 'nazo'
+          },
+          role: '謎',
+          title: '謎',
+          desc: '編集。42 Tokyo 学生。',
+        },
+      ],
+      oldnumbers: [
         {
           title: '⚾️ #3 ゲスト ytaiseiさん / 42 Tokyo 学生',
           thumbnail: require('@/assets/img/numbers/03.jpg'),
@@ -142,7 +184,24 @@ export default {
           date: '2022.03.04'
         },
       ],
-      teams: [
+      oldplatforms: [
+        {
+          src: require('@/assets/img/logos/spotify.png'),
+          alt: 'Spotify',
+          url: 'https://open.spotify.com/show/1SF8JFcX9LMqPVo6IEu5GY'
+        },
+        {
+          src: require('@/assets/img/logos/apple.png'),
+          alt: 'Apple',
+          url: 'https://podcasts.apple.com/us/podcast/hello-world-42tokyo/id1612773505'
+        },
+        {
+          src: require('@/assets/img/logos/soundcloud.png'),
+          alt: 'SoundCloud',
+          url: 'https://soundcloud.com/user-159085754'
+        }
+      ],
+      oldteams: [
         {
           img: {
             src: require('@/assets/img/teams/raida.jpeg'),
@@ -206,21 +265,10 @@ export default {
           link_sp: 'https://twitter.com/hw42tokyo',
           color: '#00A9F4',
         },
-        {
-          img: {
-            src: require('@/assets/img/sns/dc.png'),
-            w: 20,
-            h: 20,
-          },
-          text: 'Discordに参加する',
-          link_pc: 'https://discord.gg/E9er6NFhAg',
-          link_sp: 'https://discord.gg/E9er6NFhAg',
-          color: '#5769EA',
-        },
       ],
       abouts: [
         {
-          desc: '42 Tokyo（フォーティーツー）は、フランス発のエンジニア養成機関です。アメリカ・シリコンバレーをはじめ、世界各国に教育を展開しています。完全無料で、革新的なカリキュラムを学習可能。プログラミングを学びたい世界中の学生たちが、今この瞬間も42でスキルを磨いています。'
+          desc: '42 Tokyo（フォーティーツー）は、フランス発のエンジニア養成機関です。世界各国に教育を展開しています。完全無料で、革新的なカリキュラムを学習可能。エンジニアリングを学びたい世界中の学生たちが、今この瞬間も42でスキルを磨いています。'
         },
       ],
     }

@@ -4,7 +4,7 @@
       <img class="thumbnail" :src="item.thumbnail" alt="">
       <div class="title">
         <p>
-          <span v-if="i == 0">NEW!</span>
+          <!-- <span v-if="i == 0">NEW!</span> -->
           {{item.title}}
         </p>
       </div>
